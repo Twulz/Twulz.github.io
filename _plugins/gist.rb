@@ -8,7 +8,7 @@
 #    <script src="https://gist.github.com/1577100.js?file=tag_cloud.rb"></script>
 
 module Jekyll
-  class Gist < Liquid::Tag
+  class GistTag < Liquid::Tag
     def initialize(tag_name, args, tokens)
       super
       @file = ''

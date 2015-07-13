@@ -14,5 +14,12 @@ Again, I encountered a few issues with "cannot load such file", because of cours
 A little more Googling gave me the idea to use `bundle update` to make sure all of the required gems are up to date, which brought me back to the small issue with hitimes which I had yesterday and fixed with [this method][stackoverflow].
 Finally I had a pretty blog with no content!
 
+But of course I wasn't happy with just a "simple" pretty blog, I kept searching for 
+```
+C:\Users\Alicia\Documents\GitHub\Twulz.github.io>jekyll serve --watch
+Configuration file: C:/Users/Alicia/Documents/GitHub/Twulz.github.io/_config.yml
+jekyll 2.5.3 | Error:  Gist is not a class
+```
+
 [jekyllthemes]:		https://github.com/jekyll/jekyll/wiki/Themes
 [stackoverflow]:	http://stackoverflow.com/questions/28985481/hitimes-require-error-when-running-jekyll-serve-on-windows-8-1

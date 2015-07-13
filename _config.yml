@@ -16,7 +16,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 # * Project page:
 #   url: http://USERNAME.github.com/REPOSITORY
 #   baseurl: /REPOSITORY
-url: http://USERNAME.github.com
+url: http://twulz.github.com
 baseurl: 
 
 # Configuration for permalink
@@ -24,13 +24,13 @@ baseurl:
 permalink: /blog/:year/:month/:title/
 
 # Configuration for site
-title: The Code Folio
-description: A personal log of life coding.
-author: USERNAME
-email: USERNAME@example.com
+title: I Made a Thing!
+description: A personal log of the Things I Made
+author: Twulz
+email: twulz@hotmail.com
 
 # Configuration for blog
-lang: ja
+lang: en
 paginate: 4
 columns: 3
 date_format: "%B %d, %Y"
@@ -50,8 +50,8 @@ navbar_list:
     link: /blog/categories.html
   - name: Tags
     link: /blog/tags.html
-- name: Project
-  link: /project/
+- name: Projects
+  link: /projects/
 - name: About
   link: /about.html
 
@@ -59,7 +59,7 @@ navbar_list:
 # `bootstrap`:
 # custom, original, amelia, cerulean, cyborg, journal,
 # readable, simplex, slate, spacelab, spruce, superhero, united
-bootstrap: custom
+bootstrap: cerulean
 bootstrap_ver: 2.3.2
 bootswatch_ver: 2.3.2
 
@@ -70,8 +70,8 @@ responsive_bp: 768
 # CAUTION: `themes` should be false to put the script.html at the bottom.
 asides:
     about: true
-    search: true
-    themes: true
+    search: false
+    themes: false
     recent_posts: true
     archive_tabs: true
     tweets: true
@@ -90,7 +90,7 @@ jquery_ver: 1.10.2
 # Configuration for 3rd party script
 #-----------------------------------
 disqus:
-    short_name: USERNAME
+    short_name: Twulz
     comment_count: true
     developer_mode: true
 
@@ -107,10 +107,10 @@ google_plus_one:
 # `locale`: ja_JP, en_US, es_LA, fr_FR, de_DE, it_IT, zh_CN, ko_KR, ...
 facebook:
     xfbml: false
-    locale: ja_JP
+    locale: en_AU
 
 twitter:
-    username: twitterapi
+    username: Twulz
     count: 5
     exclude_replies: true
     show_screen_name: true
