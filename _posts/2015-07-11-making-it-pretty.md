@@ -2,9 +2,8 @@
 layout: post
 title:  "Making it Pretty!"
 date:   2015-07-11 14:15:00
+categories: jekyll
 ---
-
-# **I'm Making a Pretty Thing!**
 
 So after getting myself up and running with a barebones blog yesterday I decided that I needed to make it a little more pretty. I've found many templates/themes online, there is a great list featured [on the Jekyll Repo][jekyllthemes].
 
