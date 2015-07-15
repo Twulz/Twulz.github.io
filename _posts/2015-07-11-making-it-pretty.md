@@ -33,7 +33,94 @@ module Jekyll
 # etc etc
 {% endhighlight %}
 
-Et voila! The jekyll experiment website was finally working (albeit with warnings) locally. Phew! Now I just need to customise it!
+Et voila! The jekyll experiment website was finally working (albeit with warnings) locally. Phew! Now I just need to customise it.
+
+Another small error that I encountered was the fact that the `--drafts` flag for `jekyll serve` would throw an error:
+
+```
+jekyll serve --drafts
+...
+jekyll 2.5.3 | Error: Numerical argument is out of domain - "sqrt"
+```
+
+However after renaming the drafts files to conform to the required final post format e.g. `2015-07-11-making-it-pretty.md` fixed this problem.
+
+
+
+
+Just for my own records, this is the exact warnings that comes up for `jekyll serve` at this point in time:
+
+```
+C:\Users\Alicia\Documents\GitHub\Twulz.github.io>jekyll serve --watch
+Configuration file: C:/Users/Alicia/Documents/GitHub/Twulz.github.io/_config.yml
+            Source: .
+       Destination: ./_site
+      Generating...
+
+  Populating LSI...
+Rebuilding index...
+                    C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Comparable#== will no more rescue exceptions of #<=> in the next release.
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/classifier-reborn-2.0.3/lib/classifier-reborn/lsi.rb:237: warning: Return nil in #<=> if the comparison is inappropriate or avoid such comparison.
+     Build Warning: Layout 'nil' requested in atom.xml does not exist.
+     Build Warning: Layout 'nil' requested in rss.xml does not exist.
+     Build Warning: Layout 'nil' requested in sitemap.xml does not exist.
+                    done.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for '.'
+Configuration file: C:/Users/Alicia/Documents/GitHub/Twulz.github.io/_config.yml
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
 
 [jekyllthemes]:		https://github.com/jekyll/jekyll/wiki/Themes
 [jekyll-experiment]:https://github.com/tokkonopapa/jekyll-experiment
