@@ -2,6 +2,7 @@
 layout: post
 title:  "Installing and Learning Jekyll"
 date:   2015-07-10 18:08:00
+categories: jekyll
 ---
 
 # **I Made a Thing!**
