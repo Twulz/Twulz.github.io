@@ -9,7 +9,23 @@ title: 4x4x4 LED Cube
 				</header>
 
 				<section>
-				<p>4x4x4 LED Cube</p>
+				<video width="224" height="400" controls muted>
+					<source src="{{ site.baseurl }}/images/LEDCube.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<p>My first AVR project was building an LED Cube, I began with a small 4x4x4 cube in the hopes of creating an 8x8x8 in the future. This was before I had created this blog but I have still attempted to document the process here.</p>
+				
+				<h3>Here are the posts I have made so far about this cube:</h3>
+				
+				{% for post in site.categories.4x4x4 reversed %}
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				{% endfor %}
+				
+				<!-- {% capture LED_desc %}
+				<p>Description for LED Cube</p>
+				{% endcapture %}
+				
+				{{ LED_desc }} -->
 				</section>
 
 				<footer>

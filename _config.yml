@@ -52,6 +52,13 @@ navbar_list:
     link: /blog/tags.html
 - name: Projects
   link: /projects/
+  dropdown: &dropdown
+  - name: GLaDOS
+    link: /projects/GLaDOS.html
+  - name: 4x4x4 LED Cube
+    link: /projects/4x4x4-cube.html
+  - name: I Made a Thing! Blog
+    link: /projects/jekyll-blog.html
 - name: About
   link: /about.html
 
