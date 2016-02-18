@@ -1,13 +1,23 @@
+# Site settings
+name: I Made a Thing!
+email:
+author: Twulz
+
 # Configuration for jekyll
 # NOTICE: GitHub forces to set `safe: true` in order to prohibit using plugins.
 safe: false
 source: .
 destination: ./_site
-plugins: ./_plugins
+plugins_dir: ./_plugins
 lsi: true
-highlighter: pygments
+# highlighter: pygments
 markdown: rdiscount
+
+# Exclude ruby stuff
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
+
+gems:
+ - jekyll-paginate
 
 # Configuration for url/path
 # NOTICE:

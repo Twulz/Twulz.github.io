@@ -7,3 +7,6 @@ gem 'rdiscount'
 gem 'rouge'
 gem 'RedCloth'
 gem 'liquid'
+gem 'jekyll-paginate'
+gem 'classifier-reborn'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
