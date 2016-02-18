@@ -1,8 +1,3 @@
-# Site settings
-name: I Made a Thing!
-email:
-author: Twulz
-
 # Configuration for jekyll
 # NOTICE: GitHub forces to set `safe: true` in order to prohibit using plugins.
 safe: false
@@ -12,13 +7,13 @@ plugins_dir: ./_plugins
 lsi: true
 # highlighter: pygments
 markdown: rdiscount
+excerpt_separator: <!--more-->
 
 # Exclude ruby stuff
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 
 gems:
  - jekyll-paginate
-
 # Configuration for url/path
 # NOTICE:
 # * `baseurl`: Being set as absolute path is recommended.
@@ -28,6 +23,7 @@ gems:
 #   baseurl: /REPOSITORY
 url: http://twulz.github.com
 baseurl: 
+
 
 # Configuration for permalink
 # `permalink`: none, pretty or /blog/:categories/:title.html
@@ -64,13 +60,13 @@ navbar_list:
   link: /projects/
   dropdown: &dropdown
   - name: GLaDOS
-    link: /projects/GLaDOS.html
+    link: /projects/GLaDOS/
   - name: 4x4x4 LED Cube
-    link: /projects/4x4x4-cube.html
+    link: /projects/4x4x4-cube/
   - name: I Made a Thing! Blog
-    link: /projects/jekyll-blog.html
+    link: /projects/jekyll-blog/
 - name: About
-  link: /about.html
+  link: /about/
 
 # Configuration for bootstrap and color theme
 # `bootstrap`:

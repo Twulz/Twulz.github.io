@@ -7,6 +7,8 @@ categories: jekyll
 
 I have been talking about making a blog for all of my hobbies and projects for a very long time and here we are; *I finally made the Thing!*
 
+<!--more-->
+
 So I thought for my first official post I'd post about actually creating the blog and getting up and running using GitHub Pages and Jekyll because I found it surprisingly difficult to find where to start - especially using windows.
 
 # Creating the skeleton using GitHub Pages
