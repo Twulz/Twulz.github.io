@@ -46,7 +46,7 @@ title: Blog
 						</hgroup>
 					</header>
 					<div class="content">
-						{% include libs/truncate_exec %}
+						{{ post.excerpt }}
 					</div>
 					<footer>
 						<p><a href="{{ site.baseurl }}{{ post.url }}" class="btn">Read this &raquo;</a></p>
