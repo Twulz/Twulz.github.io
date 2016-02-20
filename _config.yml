@@ -5,8 +5,8 @@ source: .
 destination: ./_site
 plugins_dir: ./_plugins
 lsi: true
-# highlighter: pygments
-markdown: rdiscount
+highlighter: Rouge
+markdown: kramdown
 excerpt_separator: <!--more-->
 
 # Exclude ruby stuff
@@ -27,7 +27,7 @@ baseurl:
 
 # Configuration for permalink
 # `permalink`: none, pretty or /blog/:categories/:title.html
-permalink: /blog/:year/:month/:title/
+# permalink: /blog/:year/:month/:title/
 
 # Configuration for site
 title: I Made a Thing!

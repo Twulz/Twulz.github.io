@@ -5,8 +5,11 @@ date:
 categories: magbot
 tags: robot, build
 ---
-<br><center>![MagBook](/images/How-To-Build-A-Robot.jpg)</center>
-<br>I was given a great MagBook by Jonathan Parkyn called [How to Build a Robot] which although is a UK magazine, it's still a great resource to get started in robotics and I thought I'd give it a try as I haven't played with motors before.
+
+![MagBook](/projects/magbot/How-To-Build-A-Robot.jpg)
+{: style="text-align: center"}
+
+I was given a great MagBook by Jonathan Parkyn called [How to Build a Robot] which although is a UK magazine, it's still a great resource to get started in robotics and I thought I'd give it a try as I haven't played with motors before.
 
 <!--more-->
 
