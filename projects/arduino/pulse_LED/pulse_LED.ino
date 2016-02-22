@@ -15,11 +15,11 @@ void loop()
   {
     out = cos(in) * 127.5 + 127.5;
     analogWrite(LED1,out);
-    out = cos(in+0.7854) * 127.5 + 127.5;
-    analogWrite(LED2,out);
     out = cos(in+1.5708) * 127.5 + 127.5;
+    analogWrite(LED2,out);
+    out = cos(in+3.1415) * 127.5 + 127.5;
     analogWrite(LED3,out);
-    out = cos(in+2.3562) * 127.5 + 127.5;
+    out = cos(in+4.7124) * 127.5 + 127.5;
     analogWrite(LED4,out);
   }
 }

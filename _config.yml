@@ -5,8 +5,9 @@ source: .
 destination: ./_site
 plugins_dir: ./_plugins
 lsi: true
-highlighter: Rouge
-markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 excerpt_separator: <!--more-->
 
 # Exclude ruby stuff
@@ -90,7 +91,7 @@ asides:
     recent_posts: true
     archive_tabs: true
     tweets: true
-    github: false
+    github: true
 
 # Configuration for pygments
 # `pygments_style`:
@@ -132,9 +133,9 @@ twitter:
     show_follower_count: false
 #    widget_id: 243046062967885824
 
-#github:
-#    username: USERNAME
-#    count: 5
+github:
+    username: Twulz
+    count: 5
 
 pocket: true
 

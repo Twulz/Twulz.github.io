@@ -1,9 +1,6 @@
 ---
-layout: post
+layout: single-with-sidebar
 title:  "To do List"
-date:   
-categories: jekyll
-tags: markdown
 ---
 
 List of stuff I still need to fix/do
