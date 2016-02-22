@@ -64,7 +64,9 @@ navbar_list:
   - name: 4x4x4 LED Cube
     link: /projects/4x4x4-cube/
   - name: I Made a Thing! Blog
-    link: /projects/jekyll-blog/
+    link: /projects/jekyll-blog
+- name: Links
+  link: /useful-links/
 - name: About
   link: /about/
 
