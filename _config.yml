@@ -66,9 +66,9 @@ navbar_list:
   - name: I Made a Thing! Blog
     link: /projects/jekyll-blog
 - name: Links
-  link: /useful-links/
+  link: /useful-links.html
 - name: About
-  link: /about/
+  link: /about.html
 
 # Configuration for bootstrap and color theme
 # `bootstrap`:
