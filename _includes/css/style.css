@@ -273,3 +273,18 @@ li.social {
 #myCarousel img {
 	margin: 0 auto;
 }
+
+/* Tables */
+table {
+    border:#ccc 1px solid;
+    border-radius:3px;
+}
+table td, th {
+    padding:2px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+}
+
+/* My Formatting */
+.pDate {margin-top:-1em;}

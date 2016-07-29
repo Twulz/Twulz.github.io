@@ -19,6 +19,7 @@ title: 4x4x4 LED Cube
 				
 				{% for post in site.categories.4x4x4 reversed %}
 					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
 				{% endfor %}
 				
 				<!-- {% capture LED_desc %}
