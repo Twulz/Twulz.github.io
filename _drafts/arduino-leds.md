@@ -61,6 +61,7 @@ void loop()
 [digital-leds]:		https://learn.adafruit.com/digital-led-strip/overview
 [analog-leds]:		https://learn.adafruit.com/rgb-led-strips/
 [analog-blog-leds]:	http://www.jerome-bernard.com/blog/2013/01/12/rgb-led-strip-controlled-by-an-arduino/
+[Neopixels]:		https://learn.adafruit.com/adafruit-neopixel-uberguide/overview
 
 [my-leds]:			http://www.aliexpress.com/item/1m-4m-5m-WS2812B-Smart-led-pixel-strip-Black-White-PCB-30-60-144-leds-m/2036819167.html?smToken=82b40931e4c54a4086c7f55a8d734b6e&smSign=oEl3GazTf43bYwco81HOGw%3D%3D
 
