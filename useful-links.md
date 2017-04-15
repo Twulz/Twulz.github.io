@@ -37,4 +37,5 @@ Many of these may seem incredibly obvious but I thought I'd just list my favouri
 [arduino-store]:		https://store.arduino.cc/
 [tronixlabs]:			http://tronixlabs.com.au/
 [jaycar]:				http://www.jaycar.com.au/
+[rs]:					http://au.rs-online.com/web/
 [element14]:			http://au.element14.com/
