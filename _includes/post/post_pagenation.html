@@ -1,12 +1,12 @@
 			<section id="post_pagenation">
 				<ul class="pager">
-{% if page.next.url %}
-					<li class="next pull-left">
-						<a href="{{ site.baseurl }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}">&laquo;&nbsp;{{ page.next.title | truncatewords: 15 }}</a>
+{% if page.previous.url %}
+					<li class="previous pull-left">
+						<a href="{{ site.baseurl }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">&laquo;&nbsp;{{ page.previous.title | truncatewords: 15 }}</a>
 					</li>
-{% endif %}{% if page.previous.url %}
-					<li class="previous pull-right">
-						<a href="{{ site.baseurl }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title | truncatewords: 15 }}&nbsp;&raquo;</a>
+{% endif %}{% if page.next.url %}
+					<li class="next pull-right">
+						<a href="{{ site.baseurl }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title | truncatewords: 15 }}&nbsp;&raquo;</a>
 					</li>
 {% endif %}
 				</ul>
