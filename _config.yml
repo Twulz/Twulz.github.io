@@ -9,6 +9,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 excerpt_separator: <!--more-->
+repository: Twulz/Twulz.github.io
 
 # Exclude ruby stuff
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
