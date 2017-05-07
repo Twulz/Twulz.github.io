@@ -90,7 +90,7 @@ img {
 
 /* header.html: dropdown container */
 .navbar .nav > li.dropdown-container {
-	position: relative !important;
+	position: absolute !important;
 }
 .navbar .nav > li.dropdown-container .dropdown-link {
 	position: relative !important;
