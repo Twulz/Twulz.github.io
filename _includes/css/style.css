@@ -93,7 +93,7 @@ img {
 	position: relative !important;
 }
 .navbar .nav > li.dropdown-container .dropdown-link {
-	position: absolute !important;
+	position: relative !important;
 	top: 0;
 	left: 0;
 	z-index: 1;
