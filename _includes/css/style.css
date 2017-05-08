@@ -72,6 +72,7 @@ img {
 
 /* header.html: navbar */
 .navbar-fixed-top {
+	position: relative;
 	margin-bottom: 20px;
 }
 .navbar-fixed-top .navbar-inner {
