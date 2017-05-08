@@ -65,6 +65,13 @@ img {
 	text-decoration: none;
 }
 
+.hgroup {
+	z-index:1;
+}
+.nav {
+	z-index:-1;
+}
+
 /* header.html: navbar */
 .navbar-fixed-top {
 	margin-bottom: 20px;
