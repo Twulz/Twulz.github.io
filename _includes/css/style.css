@@ -66,10 +66,8 @@ img {
 }
 
 .hgroup {
-	z-index:1;
-}
-.nav {
-	z-index:-1;
+	top: 0px;
+	position: fixed;
 }
 
 /* header.html: navbar */
