@@ -75,7 +75,6 @@ img {
 /* header.html: navbar */
 .navbar-fixed-top {
 	margin-bottom: 20px;
-	position: static;
 }
 .navbar-fixed-top .navbar-inner {
 	padding: 0;
