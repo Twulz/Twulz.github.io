@@ -6,7 +6,9 @@ categories: 3dprinter orrery
 tags: 3D, print, printer, mk2, prusa, i3, orrery
 ---
 
-Construction of the gears required more than a little patience working with the printed parts and bearings.
+![Base and All of the Gears](/images/orrery/finished_base02.jpg)
+
+Construction of the gears of the orrery required more than a little patience working with the printed parts and bearings.
 
 <!--more-->
 
@@ -27,5 +29,3 @@ From here each rod arm and gear had to be attached to the main shaft, each level
 ![Base and Gears](/images/orrery/base_and_gears02.jpg)
 
 At long last, each gear was assembled correctly - yay! But at this stage I was exhausted, the next step could wait for tomorrow!
-
-![Base and All of the Gears](/images/orrery/finished_base02.jpg)
