@@ -10,6 +10,8 @@ After successfully programming the chip and testing the cube connected using a b
 
 <!--more-->
 
+Please note throughout this project I was referring heavily to [this Instructible][Instructible]
+
 I used female to male connecting wires to connect the 16 wires to the cathodes and 4 male to male connecting wires to the anodes which were attached to the breadboard. The other components were connected in a logical fashion elsewhere on the board.
 
 ![Breadboard Setup](/images/4x4x4/breadboard01.jpg)
