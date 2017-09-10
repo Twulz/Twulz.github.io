@@ -61,8 +61,12 @@ navbar_list:
 - name: Projects
   link: /projects/
   dropdown: &dropdown
-  - name: GLaDOS
-    link: /projects/GLaDOS/
+  - name: Orrery
+    link: /projects/orrery/
+  - name: Zombicide Painting
+    link: /projects/zombicide/
+  - name: Dark Souls Board Game Painting
+    link: /projects/darksouls/
   - name: 4x4x4 LED Cube
     link: /projects/4x4x4-cube/
   - name: I Made a Thing! Blog

@@ -54,7 +54,6 @@ void loop()
 }
 ```
 
-{% include youtubePlayer.html id=nWs2BzyL9dA %}
 
 [sparkfun]: 		https://www.sparkfun.com/tutorials/329
 [ws2812-guide]:		https://learn.sparkfun.com/tutorials/ws2812-breakout-hookup-guide
