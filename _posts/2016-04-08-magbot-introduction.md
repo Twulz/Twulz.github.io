@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Magbot Introduction"
-date:   2017-01-01
+date:   2016-04-08
 categories: magbot
 tags: robot, build
 ---
