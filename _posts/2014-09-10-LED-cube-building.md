@@ -2,15 +2,15 @@
 layout: post
 title:  "Building the LED Cube"
 date:   2014-09-10
-categories: 4x4x4 LED cube
-tags: 4x4x4 build solder
+categories: c4x4x4 LED cube
+tags: c4x4x4 build solder
 ---
 
 While waiting for the main electronics to arrive, I got started on building the LED cube matrix.
 
 <!--more-->
 
-Please note throughout this project I was referring heavily to [this Instructible][Instructible]
+Please note throughout this project I was referring heavily to [this Instructible][Instructable]
 
 Building the LED Cube was the most fiddly of the whole build, as each of the 64 LEDs had to be soldered together properly ensuring the anodes and cathodes were aligned correctly with the neighbouring LEDs. LEDs generally exploit the human eye's persistence of vision by using multiplexing to only turn on one layer of the cube at a time, but also to be able to switch this to another layer at a high enough frequency that we percieve the different layers as on simultaneously.
 
@@ -20,13 +20,13 @@ Before diving into the build, I decided to rig up a small circuit on my breadboa
 
 Now to the build; following the instructions on the [Instructible][Instructible], I measured up a grid of holes to drill based on the length of the legs on the LEDs I had bought to make a template for the LED layers.
 
-![Drilled Holes](/images/4x4x4/holes.jpg)
+![Drilled Holes](/images/c4x4x4/holes.jpg)
 
 The following image was of my original practise go at soldering the legs together, I realised after soldering the second layer that if I had not rotated the legs the same amount on each of the layers, soldering the whole cube together was going to be harder and the final product would not be as well-aligned as it could be. So after these photos were taken I actually soldered another 4 layers each with the same rotation on the legs of the LEDs within the template.
 
-![Drilled Holes with LEDs](/images/4x4x4/holes_LEDs.jpg)
+![Drilled Holes with LEDs](/images/c4x4x4/holes_LEDs.jpg)
 
 After a lot of fiddling around I finally got a completed cube, but ended up going to bed before taking a proper picture of just the completed cube before it was connected to anything! But there will be plenty more progress pictures in the next post - testing the cube.
 
 
-[Instructible]: http://www.instructables.com/id/LED-Cube-4x4x4/
+[Instructable]: http://www.instructables.com/id/LED-Cube-4x4x4/

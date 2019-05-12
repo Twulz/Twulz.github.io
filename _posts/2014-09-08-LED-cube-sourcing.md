@@ -2,8 +2,8 @@
 layout: post
 title:  "Sourcing the LED Cube"
 date:   2014-09-08
-categories: 4x4x4 LED cube
-tags: 4x4x4 BOM source buy
+categories: c4x4x4 LED cube
+tags: c4x4x4 BOM source buy
 ---
 
 I built an LED cube that runs off a ATMega16 chip to experiment with these types of chips and have a bit of fun!
