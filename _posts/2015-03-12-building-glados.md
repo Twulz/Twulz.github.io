@@ -6,6 +6,8 @@ categories: GLaDOS
 tags: GLaDOS build computer pc 
 ---
 
+![GLaDOS is ALIVE!](/images/glados/finished01.jpg)
+
 I build my first PC from scratch, a small post to document the process.
 
 <!--more-->

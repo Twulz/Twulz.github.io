@@ -6,6 +6,8 @@ categories: c4x4x4 LED cube
 tags: c4x4x4 build breadboard
 ---
 
+![Breadboard Setup](/images/c4x4x4/breadboard03.jpg)
+
 The remainder of the parts only took a few days to arrive so I could get started on the main electronics involved in the build. I chose to test the circuit on a breadboard before soldering the more permanent solution onto Veroboard.
 
 <!--more-->
