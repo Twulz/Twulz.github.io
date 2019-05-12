@@ -6,6 +6,8 @@ categories: laserTag
 tags: laserTag build solder
 ---
 
+![A laser tag gun](/images/laserTag/laser_gun.jpg)
+
 I attended a workshop through university to help the Laser Skirmish guys solder up their new laser tag guns.
 
 <!--more-->

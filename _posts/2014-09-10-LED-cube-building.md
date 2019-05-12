@@ -6,6 +6,8 @@ categories: c4x4x4 LED cube
 tags: c4x4x4 build solder
 ---
 
+![Drilled Holes with LEDs](/images/c4x4x4/holes_LEDs.jpg)
+
 While waiting for the main electronics to arrive, I got started on building the LED cube matrix.
 
 <!--more-->

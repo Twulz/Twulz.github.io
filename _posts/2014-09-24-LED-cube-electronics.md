@@ -6,6 +6,8 @@ categories: c4x4x4 LED cube
 tags: c4x4x4 build veroboard solder
 ---
 
+![Finished Cube](/images/c4x4x4/finished01.jpg)
+
 After successfully programming the chip and testing the cube connected using a breadboard, I connected the electronics using Perfboard to make for a better display.
 
 <!--more-->
