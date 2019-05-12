@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Screen Repair and Transistor Testor kit"
+title:  "Screen Repair and Transistor Tester kit"
 date:   2017-05-12
-categories: repair, electronics
-tags: dell, screen, repair, transistor, kit, electronics
+categories: repair electronics
+tags: dell screen repair transistor kit electronics
 ---
 
 I have two Dell screens that started to have the flashing power button fault, which after a little googling seems to generally be caused by one or more of a group of 4 transistors on the board that may be faulty. In this post I built a transistor/capacitor tester kit I got from banggood.com and used it to test these transistors as I replaced them to fix the screens.
