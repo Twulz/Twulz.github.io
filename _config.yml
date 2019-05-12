@@ -14,7 +14,7 @@ repository: Twulz/Twulz.github.io
 # Exclude ruby stuff
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 
-gems:
+plugins:
  - jekyll-paginate
 # Configuration for url/path
 # NOTICE:
@@ -68,7 +68,7 @@ navbar_list:
   - name: Dark Souls Board Game Painting
     link: /projects/darksouls/
   - name: 4x4x4 LED Cube
-    link: /projects/4x4x4-cube/
+    link: /projects/cube4x4x4/
   - name: I Made a Thing! Blog
     link: /projects/jekyll-blog
 - name: Links
