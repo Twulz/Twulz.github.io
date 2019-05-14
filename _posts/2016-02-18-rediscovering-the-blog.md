@@ -6,6 +6,8 @@ categories: jekyll
 ---
 After setting up this blog and finally getting up to producing some content for it - I may have got super busy and abandoned the project for a while, however now I have decided to keep it up as I have a few projects in mind that I would like to log and here we are!
 
+<!--more-->
+
 That said, after all this time things have changed in the jekyll world apparently and my set up no longer worked (using the steps outlined in [Installing and Learning Jekyll][learning-jekyll] so these are the steps I used to get up and running again:
 1. Run `gem update && gem cleanup` in the command line to update all Gems
 2. Now after running `jekyll serve --watch` the following error is shown:
