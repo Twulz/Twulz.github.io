@@ -3,7 +3,7 @@ layout: post
 title:  "Magbot Introduction"
 date:   2016-04-08
 categories: magbot
-tags: robot, build
+tags: robot build
 ---
 
 ![MagBook](/projects/magbot/How-To-Build-A-Robot.jpg)

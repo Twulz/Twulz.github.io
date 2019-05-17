@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "$20 Transisor Testor"
+title:  "$20 Transisor Tester"
 date:   2017-04-15
-categories: fix testor
-tags: fix transistor testor tools
+categories: fix tester
+tags: fix transistor tester tools
 ---
 
 ![Banggood Transistor Checker](/images/screenFix/set_contents.jpg)
@@ -28,3 +28,13 @@ I did make one big error with the test input region. This same board is used for
 ![Soldering the front panel](/images/screenFix/front_panel_soldering.jpg)
 
 After removing this part I could fit the board inside the case and connect up the inputs that were mounted on the outside of the case. This was a little fiddly as the wires from the inputs were freestanding and all had to be inserted correctly before soldering but then it was time to test this baby out!
+
+![Soldering the fix](/images/screenFix/soldering_transistors01.jpg)
+
+I first had to de-solder the troublesome transistors from the dell screen's motherboard - my new dremel vice was very useful for this.
+
+![Soldering the fix](/images/screenFix/soldering_transistors02.jpg)
+
+It turned out that only one of the transistors was faulty, but after removing them I decided I'd replace them all anyway for good measure. After putting it all back together - ta da! Fixed screen!
+
+![Fixed screen!](/images/screenFix/fixed_screen.jpg)
