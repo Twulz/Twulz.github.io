@@ -45,7 +45,7 @@ date_format: "%B %d, %Y"
 truncate_len: 200
 
 # Configuration for asides/recent_posts.html
-recent_posts: 5
+recent_posts: 15
 
 # Configuration for navbar.html
 navbar_list:
@@ -132,7 +132,7 @@ facebook:
 
 twitter:
     username: Twulz
-    count: 5
+    count: 3
     exclude_replies: true
     show_screen_name: true
     show_follower_count: false
@@ -140,7 +140,7 @@ twitter:
 
 github:
     username: Twulz
-    count: 5
+    count: 3
 
 pocket: true
 
