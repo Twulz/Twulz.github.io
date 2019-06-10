@@ -3,7 +3,7 @@ layout: post
 title:  "Building an Orrery: Bending the Rods"
 date:   2016-12-21
 categories: 3dprinter orrery
-tags: 3D, print, printer, mk2, prusa, i3, orrery
+tags: 3D print printer mk2 prusa i3 orrery
 ---
 
 ![Cut Rods](/images/orrery/rods.jpg)
