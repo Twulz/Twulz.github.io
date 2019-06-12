@@ -8,7 +8,7 @@ tags: parking esp32 nodejs mysql
 
 ![Node.js](/images/parking/nodejs.png)
 
-Building _Basil Faulty_ the DonkeyCar - a remote control car that becomes a self-driving car using machine learning and artificial intelligence to drive itself around tracks.
+A summary of developing the server using Node.js for my _Smart Parking for Smart Cities_ project I was a part of for my Computer Science final year project that we presented at the Capstone Expo (CapEx) at Swinburne.
 
 <!--more-->
 
