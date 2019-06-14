@@ -67,6 +67,6 @@ And here is hexy alive! The demo behaviour came pre-loaded to test it out. After
 <center>
     <video width="800" height="600" controls muted>
         <source src="{{ site.baseurl }}/images/hexy/Finished_video_small.mp4" type="video/mp4">
-        LED Cube
+        Hexy Final video
     </video>
 </center>
