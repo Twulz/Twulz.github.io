@@ -92,6 +92,6 @@ For the final presentation it still occasionally missed the blocks from the feed
 <center>
     <video width="960" height="540" controls muted>
         <source src="{{ site.baseurl }}/images/pickAndPlace/02_shitty_robot.mp4" type="video/mp4">
-        LED Cube
+        Finished Shitty Robot
     </video>
 </center>

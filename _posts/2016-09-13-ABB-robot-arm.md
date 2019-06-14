@@ -31,6 +31,6 @@ The following is a demo of the working program, notice the image from the webcam
 <center>
     <video width="960" height="540" controls muted>
         <source src="{{ site.baseurl }}/images/abb/pick_and_place.mp4" type="video/mp4">
-        LED Cube
+        Final Video
     </video>
 </center>

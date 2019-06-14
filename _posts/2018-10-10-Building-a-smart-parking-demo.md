@@ -96,7 +96,7 @@ Here are a few videos of the stages working!
 <center>
     <video width="960" height="540" controls muted>
         <source src="{{ site.baseurl }}/images/parking/01_stage_1_2.mp4" type="video/mp4">
-        LED Cube
+        Parking Stages 1 and 2
     </video>
 </center>
 
@@ -105,7 +105,7 @@ Here are a few videos of the stages working!
 <center>
     <video width="960" height="540" controls muted>
         <source src="{{ site.baseurl }}/images/parking/02_stage_3.mp4" type="video/mp4">
-        LED Cube
+        Parking Stage 3
     </video>
 </center>
 
@@ -113,7 +113,7 @@ Here are a few videos of the stages working!
 
 <center>
     <video width="960" height="540" controls muted>
-        <source src="{{ site.baseurl }}/images/03_parking_stage_4.mp4" type="video/mp4">
-        LED Cube
+        <source src="{{ site.baseurl }}/images/parking/03_parking_stage_4.mp4" type="video/mp4">
+        Parking Stage 4
     </video>
 </center>

@@ -83,7 +83,7 @@ I moved the printer to my desk so I could print without annoying my housemates t
 <center>
     <video width="480" height="270" controls muted>
         <source src="{{ site.baseurl }}/images/printer/first_print_failed.mp4" type="video/mp4">
-        First Print (that failed!)
+        First print... that failed
     </video>
 </center>
 
