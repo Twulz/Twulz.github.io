@@ -6,7 +6,7 @@ categories: robot AI machineLearning
 tags: robot AI machineLearning basil training
 ---
 
-![Basil Action Shot](/images/donkeyCar/setup/04_basil_action_shot.jpg)
+![Basil Action Shot](/images/donkeyCar/setup/06_action_shot.jpg)
 
 I could finally set up the training environment using Ubuntu in VirtualBox on Windows to allow Basil to learn to race around the track in my kitchen!
 
