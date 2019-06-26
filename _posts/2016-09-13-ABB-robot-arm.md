@@ -3,7 +3,7 @@ layout: post
 title:  "Programming an ABB Robot Arm"
 date:   2016-09-13
 categories: robot
-tags: robot ABB pickAndPlace
+tags: robot ABB pickAndPlace otherEng
 ---
 
 ![Full setup](/images/abb/01_full_setup.jpg)

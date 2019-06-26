@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Package Box for the Smart Home"
 date:   2018-09-13
-categories: nodejs esp32
+categories: nodejs esp32 fyp
 tags: smartHome esp32 nodejs 
 ---
 

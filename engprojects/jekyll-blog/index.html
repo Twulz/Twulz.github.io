@@ -16,6 +16,7 @@ title: I Made a Thing! Blog
 				
 				{% for post in site.categories.jekyll reversed %}
 					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
 				{% endfor %}
 				</section>
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Data Gathering for Basil Faulty the DonkeyCar"
 date:   2019-05-21
-categories: robot AI machineLearning
-tags: robot AI machineLearning basil data
+categories: donkeyCar robot machineLearning
+tags: robot AI machineLearning basil data donkeyCar
 ---
 
 ![Basil](/images/donkeyCar/buildDay/04_basil.jpg)

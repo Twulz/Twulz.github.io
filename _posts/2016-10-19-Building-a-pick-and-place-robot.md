@@ -3,7 +3,7 @@ layout: post
 title:  "Building a Pick-and-Place Robot using MyRIO and LabView"
 date:   2016-10-19
 categories: robot
-tags: robot pickAndPlace LabView
+tags: robot pickAndPlace LabView otherEng
 ---
 
 ![Completed shitty robot](/images/pickAndPlace/11_complete_setup.jpg)

@@ -3,7 +3,7 @@ layout: post
 title:  "Building Hexy the Hexapod"
 date:   2018-02-11
 categories: hexapod hexy robot
-tags: hexapod hexy robot 3dprint
+tags: hexapod hexy robot 3dprint otherEng
 ---
 
 ![All parts](/images/hexy/10_knolled.jpg)

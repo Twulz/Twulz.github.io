@@ -1,0 +1,25 @@
+---
+layout: default
+group: Projects
+title: Prusa i3 3D Printer
+---		
+			<article>
+				<header>
+					<h1>{{ page.title }}</h1>
+				</header>
+
+				<section>
+				<img alt="Orrery" src="{{ site.baseurl }}/images/printer/printer33_constructed.jpg">
+				<p>I built an Official Prusa i3 3D Printer from a kit so I could use it to make more things!</p>
+				
+				<h3>Here are the posts I have made so far about my 3D Printer:</h3>
+				
+				{% for post in site.categories.3dprinter reversed %}
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
+				{% endfor %}
+				</section>
+
+				<footer>
+				</footer>
+			</article>

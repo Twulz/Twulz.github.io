@@ -3,7 +3,7 @@ layout: post
 title:  "$20 Transisor Tester"
 date:   2017-04-15
 categories: fix tester
-tags: fix transistor tester tools
+tags: fix transistor tester tools otherEng
 ---
 
 ![Banggood Transistor Checker](/images/screenFix/set_contents.jpg)
