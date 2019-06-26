@@ -2,7 +2,7 @@
 layout: post
 title:  "Building the Smart Home Server with NodeJS"
 date:   2018-08-26
-categories: nodejs esp32
+categories: nodejs esp32 fyp
 tags: smartHome esp32 nodejs mysql database
 ---
 

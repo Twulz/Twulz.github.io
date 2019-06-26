@@ -3,7 +3,7 @@ layout: post
 title:  "Building GLaDOS - My New PC"
 date:   2015-03-12
 categories: GLaDOS 
-tags: GLaDOS build computer pc 
+tags: GLaDOS build computer pc otherEng
 ---
 
 ![GLaDOS is ALIVE!](/images/glados/finished01.jpg)

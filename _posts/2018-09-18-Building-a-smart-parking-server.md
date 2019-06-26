@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Smart Parking Server"
 date:   2018-09-18
-categories: nodejs esp32
+categories: nodejs esp32 fyp
 tags: parking esp32 nodejs mysql
 ---
 

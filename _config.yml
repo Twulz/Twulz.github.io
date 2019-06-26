@@ -39,7 +39,8 @@ email: twulz@hotmail.com
 
 # Configuration for blog
 lang: en
-paginate: 4
+#paginate: 4
+paginate: 10
 columns: 3
 date_format: "%B %d, %Y"
 truncate_len: 200
@@ -58,19 +59,37 @@ navbar_list:
     link: /blog/categories.html
   - name: Tags
     link: /blog/tags.html
-- name: Projects
-  link: /projects/
+- name: Engineering Things
+  link: /engprojects/
   dropdown: &dropdown
+  - name: Basil the DonkeyCar
+    link: /engprojects/donkeycar/
+  - name: Final Year Projects
+    link: /engprojects/fyp/
   - name: Orrery
-    link: /projects/orrery/
-  - name: Zombicide Painting
-    link: /projects/zombicide/
-  - name: Dark Souls Board Game Painting
-    link: /projects/darksouls/
-  - name: 4x4x4 LED Cube
-    link: /projects/cube4x4x4/
+    link: /engprojects/orrery/
+  - name: Prusa i3 3D Printer
+    link: /engprojects/printer/
   - name: I Made a Thing! Blog
-    link: /projects/jekyll-blog
+    link: /engprojects/jekyll-blog
+  - name: 4x4x4 LED Cube
+    link: /engprojects/cube4x4x4/
+  - name: Other Engineering Things
+    link: /engprojects/other/
+- name: Games Things
+  link: /games/
+  dropdown: &dropdown
+  - name: Zombicide Painting
+    link: /games/zombicide/
+  - name: Dark Souls Board Game Painting
+    link: /games/darksouls/
+- name: Gardening Things
+  link: /garden/
+  dropdown: &dropdown
+  - name: Vegepod
+    link: /garden/vegepod/
+  - name: Other Garden Things
+    link: /garden/other/
 - name: Links
   link: /useful-links.html
 - name: About

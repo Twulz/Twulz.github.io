@@ -2,8 +2,8 @@
 layout: post
 title:  "Actually Training Basil Faulty the DonkeyCar"
 date:   2019-06-04
-categories: robot AI machineLearning
-tags: robot AI machineLearning basil training
+categories: donkeyCar robot machineLearning
+tags: robot AI machineLearning basil training donkeyCar
 ---
 
 ![Basil](/images/donkeyCar/setup/05_basil.jpg)

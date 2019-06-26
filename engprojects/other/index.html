@@ -1,0 +1,25 @@
+---
+layout: default
+group: Projects
+title: Other Engineering Stuff
+---		
+			<article>
+				<header>
+					<h1>{{ page.title }}</h1>
+				</header>
+
+				<section>
+				<img alt="Other Engineering Projects" src="{{ site.baseurl }}/images/pickAndPlace/11_complete_setup.jpg">
+				<p>Other stuff I've made that haven't got their own project page.</p>
+				
+				<h3>Here are the posts I have made so far about other engineering stuff:</h3>
+				
+				{% for post in site.tags.otherEng reversed %}
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
+				{% endfor %}
+				</section>
+
+				<footer>
+				</footer>
+			</article>
