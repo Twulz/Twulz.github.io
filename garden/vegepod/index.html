@@ -1,0 +1,25 @@
+---
+layout: default
+group: Projects
+title: Vegepod
+---		
+			<article>
+				<header>
+					<h1>{{ page.title }}</h1>
+				</header>
+
+				<section>
+				<img alt="Vegepod" src="{{ site.baseurl }}/images/vegepod/progress_dec_2018_01.jpg">
+				<p>Building a raised garden bed that is self-watering with a wicking bed design, elevated and portable with a greenhouse cover to plant some set-and-forget herbs to be used hopefully all year round.</p>
+				
+				<h3>Here are the posts I have made so far about the Vegepod:</h3>
+				
+				{% for post in site.categories.vegepod reversed %}
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
+				{% endfor %}
+				</section>
+
+				<footer>
+				</footer>
+			</article>

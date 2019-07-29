@@ -3,7 +3,7 @@ layout: post
 title:  "Building an Orrery: Printing the Parts"
 date:   2016-12-18
 categories: 3dprinter orrery
-tags: 3D, print, printer, mk2, prusa, i3, orrery
+tags: 3D print printer mk2 prusa i3 orrery
 ---
 
 ![Almost finished Orrery](/images/orrery/finished_01.jpg)
@@ -22,7 +22,19 @@ My dad is quite passionate about stargazing and so I'd long been looking for an 
 
 # Printing!
 
+![Printing the Gears](/images/orrery/06_printing_gears.jpg)
+
 This was my first big project using my 3D printer so there were a number of false-starts. I chose to print the majority of the parts in PLA as I hadn't started playing with ABS and my PLA prints were turning out very nicely. I chose black for the main body including all the gears and white for the planets. I split the print into I think 15 different prints so as to maximise the use of the bed which was especially useful for the smaller pieces which benefit from being allowed to cool slightly more before printing the next layer if there are multiple parts on the bed. I only had two failures and had to reprint the Moon and Mercury but otherwise the printing process went smoothly.
+
+![Printing the Sun](/images/orrery/05_printing_sun.jpg)
+
+I also ran the straight line (z-height) and cubes calibration print a few times to properly level the bed before printing, as I was planning to print multiple parts at once it was important that the bed was properly calibrated.
+
+![Calibration Line](/images/orrery/01_calibration.jpg)
+
+![Calibration Cubes](/images/orrery/03_calibration.jpg)
+
+![Calibration Cubes](/images/orrery/04_calibration.jpg)
 
 The following table shows how I split up the prints on my Official Prusa i3 MK2, those without the time were grouped with those parts above them in the table. The total print time was 22 hours 14 minutes, not including false starts and the few failed parts. Unfortunately I don't know what happened to my photos!! So I'll make up for that in the next post, have some tabley-goodness instead:
 
