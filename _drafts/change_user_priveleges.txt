@@ -1,0 +1,23 @@
+
+Last login: Thu Jul 25 11:00:52 2019 from 61.68.252.213
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:~# cd /home/twulz/
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# ls
+node-app
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# ls -a
+.   .bash_logout  .cloud-locale-test.skip  .pm2      .sudo_as_admin_successful
+..  .bashrc       .npm                     .profile  node-app
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# mkdir /home/twulz/.ssh
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# cp -Rfv /root/.ssh /home/twulz
+'/root/.ssh/authorized_keys' -> '/home/twulz/.ssh/authorized_keys'
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# chown -Rfv twulz.twulz /home/twulz/.ssh
+changed ownership of '/home/twulz/.ssh/authorized_keys' from root:root to twulz:twulz
+changed ownership of '/home/twulz/.ssh' from root:root to twulz:twulz
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# chown -R twulz:twulz /home/twulz
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# gpasswd -a twulz sudo
+Adding user twulz to group sudo
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# echo "twulz ALL=(ALL) NOPASSWD: ALL" | (EDITOR="tee -a" visudo)
+twulz ALL=(ALL) NOPASSWD: ALL
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# service ssh restart
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz# usermod -s /bin/bash twulz
+usermod: no changes
+root@nodejs-app-1564054978878-s-1vcpu-1gb-sgp1-01:/home/twulz#

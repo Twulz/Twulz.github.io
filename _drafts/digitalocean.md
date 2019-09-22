@@ -176,4 +176,251 @@ yep it exists!
 
 
 
+
+## I couldn't log in as anything but root
+
+```
+adduser --system --group twulz
+mkdir /home/twulz/.ssh
+chmod 0700 /home/twulz/.ssh/
+cp -Rfv /root/.ssh /home/twulz/
+chown -Rfv twulz.twulz /home/twulz/.ssh
+chown -R twulz:twulz /home/twulz/
+gpasswd -a twulz sudo
+echo "twulz ALL=(ALL) NOPASSWD: ALL" | (EDITOR="tee -a" visudo)
+service ssh restart
+usermod -s /bin/bash twulz
+```
+
+## Now to reset the auto-starting app on a new dropplet (after taking a snapshot and destroying):
+
+1. Create the droplet from the snapshot
+1. Sign in to twulz user
+1. Move to the `/node-app/` folder `cd node-app`
+1. Start pm2: `pm2 start index.js`
+1. Go to http://IP-ADDRESS:3000
+
+
+
+
+
+
+
+# Jenkins server
+
+## Configure user permissions from scratch
+
+Select "Ubuntu" from the "distributions" menu - 18.04
+
+Log in as root user using my ssh key/password
+
+```
+adduser --system --group twulz
+mkdir /home/twulz/.ssh
+chmod 0700 /home/twulz/.ssh/
+cp -Rfv /root/.ssh /home/twulz/
+chown -Rfv twulz.twulz /home/twulz/.ssh
+chown -R twulz:twulz /home/twulz/
+gpasswd -a twulz sudo
+echo "twulz ALL=(ALL) NOPASSWD: ALL" | (EDITOR="tee -a" visudo)
+service ssh restart
+usermod -s /bin/bash twulz
+```
+
+Install git `sudo apt-get install git`
+
+### Install jenkins:
+
+Jenkins still uses Java 8 instead of the default of Java 9 (Ubuntu 18.04) so I had to install Java 8 as default first:
+
+```sh
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo apt install oracle-java8-installer
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
+sudo apt-get update
+sudo apt install jenkins
+
+
+
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt-get update
+
+sudo apt-get install jenkins
+
+sudo systemctl status jenkins
+
+sudo ufw allow 8080
+```
+
+NOTHING WORKS, SCRAP THE WHOLE JENKINS SECTION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Jenkins server
+
+## Configure user permissions from scratch
+
+Select "Ubuntu" from the "distributions" menu - 18.04
+
+Log in as root user using my ssh key/password
+
+```
+adduser --system --group twulz
+mkdir /home/twulz/.ssh
+chmod 0700 /home/twulz/.ssh/
+cp -Rfv /root/.ssh /home/twulz/
+chown -Rfv twulz.twulz /home/twulz/.ssh
+chown -R twulz:twulz /home/twulz/
+gpasswd -a twulz sudo
+echo "twulz ALL=(ALL) NOPASSWD: ALL" | (EDITOR="tee -a" visudo)
+service ssh restart
+usermod -s /bin/bash twulz
+exit
+```
+
+Then re-connect using PuTTY and login as twulz (using the ssh passkey).
+
+### Java 8 install
+
+Installing Java sdk 8 didn't work so needed to add the 'universe' repo:
+
+```
+sudo add-apt-repository universe
+sudo apt install openjdk-8-jdk
+java -version
+```
+
+This had the correct output according to [install java].
+
+### Jenkins install
+
+```
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+```
+
+Need to activate OpenSSH and activate the firewall:
+
+```
+sudo ufw allow OpenSSH
+sudo ufw enable
+```
+
+Open port 8080 which is the one used for jenkins:
+
+```
+sudo ufw allow 8080
+sudo ufw status
+```
+
+I took a snapshot here just in case!
+
+### Configure Jenkins
+
+Go to http://IP_ADDRESS:8080
+
+Need to unlock it viewing the file at:
+`/var/lib/jenkins/secrets/initialAdminPassword`
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+Set it up with a user and password.
+
+![Jenkins configuration](/images/nodeApp/01_jenkins_setup.JPG)
+
+
+![Github webhook lookup](/images/nodeApp/02_webhook_setup.JPG)
+
+`Error: npm: not found`
+
+```
+Started by user Alicia
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/node-app
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Twulz/node-app.git # timeout=10
+Fetching upstream changes from https://github.com/Twulz/node-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Twulz/node-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 81d9f909cfd34cd5eb65a123dd9f2a1e67686512 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 81d9f909cfd34cd5eb65a123dd9f2a1e67686512
+Commit message: "Solve vulnerabilities"
+ > git rev-list --no-walk 81d9f909cfd34cd5eb65a123dd9f2a1e67686512 # timeout=10
+[node-app] $ /bin/sh -xe /tmp/jenkins7265834994987103977.sh
++ npm install
+/tmp/jenkins7265834994987103977.sh: 2: /tmp/jenkins7265834994987103977.sh: npm: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
+```
+
+![No NodeJS installation?](/images/nodeApp/03_add_npm_to_path.JPG)
+
+Solution: I hadn't configured NodeJS plugin for jenkins!
+Followed these instructions: https://wiki.jenkins.io/display/JENKINS/NodeJS+Plugin
+
+![Add NodeJS installation to jenkins](/images/nodeApp/04_add_NodeJS_installer.JPG)
+
+![Now add npm to path](/images/nodeApp/05_add_npm_to_path.JPG)
+
+```
+Started by user Alicia
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/node-app
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Twulz/node-app.git # timeout=10
+Fetching upstream changes from https://github.com/Twulz/node-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Twulz/node-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 81d9f909cfd34cd5eb65a123dd9f2a1e67686512 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 81d9f909cfd34cd5eb65a123dd9f2a1e67686512
+Commit message: "Solve vulnerabilities"
+ > git rev-list --no-walk 81d9f909cfd34cd5eb65a123dd9f2a1e67686512 # timeout=10
+Unpacking https://nodejs.org/dist/v12.10.0/node-v12.10.0-linux-x64.tar.gz to /var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS on Jenkins
+[node-app] $ /bin/sh -xe /tmp/jenkins6895391044336724061.sh
++ npm install
+added 621 packages from 1298 contributors and audited 12356 packages in 16.274s
+found 0 vulnerabilities
+
++ ./script/test
+/tmp/jenkins6895391044336724061.sh: 3: /tmp/jenkins6895391044336724061.sh: ./script/test: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
+```
+
+
+
 [medium-tutorial]: https://medium.com/@mosheezderman/how-to-set-up-ci-cd-pipeline-for-a-node-js-app-with-jenkins-c51581cc783c
+[install java]: https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04#installing-specific-versions-of-openjdk
