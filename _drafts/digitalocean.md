@@ -420,6 +420,14 @@ Build step 'Execute shell' marked build as failure
 Finished: FAILURE
 ```
 
+Tried to change the permissions for the whole node-app folder (using PuTTY):
+
+```
+sudo chmod -R 757 /var/lib/jenkins/workspace/node-app
+sudo systemctl restart jenkins
+```
+
+still not working, added whoami to the pipeline:
 
 
 [medium-tutorial]: https://medium.com/@mosheezderman/how-to-set-up-ci-cd-pipeline-for-a-node-js-app-with-jenkins-c51581cc783c
