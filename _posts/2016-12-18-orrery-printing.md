@@ -2,7 +2,7 @@
 layout: post
 title:  "Building an Orrery: Printing the Parts"
 date:   2016-12-18
-categories: 3dprinter orrery
+categories: printer orrery
 tags: 3D print printer mk2 prusa i3 orrery
 ---
 
