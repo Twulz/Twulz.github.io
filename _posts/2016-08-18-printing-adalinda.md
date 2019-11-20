@@ -2,7 +2,7 @@
 layout: post
 title:  "Printing Adalinda the Dragon"
 date:   2016-08-18
-categories: 3dprinter
+categories: printer
 tags: 3D print printer mk2 prusa i3 pla
 ---
 
