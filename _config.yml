@@ -4,7 +4,7 @@ safe: false
 source: .
 destination: ./_site
 plugins_dir: ./_plugins
-lsi: true
+lsi: false
 kramdown:
   input: GFM
   syntax_highlighter: rouge
