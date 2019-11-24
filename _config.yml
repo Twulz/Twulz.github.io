@@ -64,6 +64,8 @@ navbar_list:
   dropdown: &dropdown
   - name: Basil the DonkeyCar
     link: /engprojects/donkeycar/
+  - name: Node-App
+    link: /engprojects/nodeApp/
   - name: Final Year Projects
     link: /engprojects/fyp/
   - name: Orrery
