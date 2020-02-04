@@ -58,6 +58,16 @@ pm2 status
 pm2 start index.js
 ```
 
+To ensure the process manager `pm2` starts when the Node-App server boots, I followed [this tutorial][pm2-tutorial]. `pm2` comes with an in-built command that gives you the command you need to run as admin to start pm2 on boot:
+
+```sh
+pm2 startup
+sudo env PATH=$PATH:/usr/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u twulz --hp /home/twulz
+cd node-app/
+pm2 start index.js
+pm2 save
+```
+
 I then thought that the script should be able to deal with either starting _or_ restarting the process, so I updated the deploy script:
 
 ```
@@ -113,3 +123,5 @@ if(!module.parent){
 ```
 
 Done! Now I can finally register a domain name and add HTTPS support to finish off the setup.
+
+[pm2-tutorial]: https://futurestud.io/tutorials/pm2-restart-processes-after-system-reboot
