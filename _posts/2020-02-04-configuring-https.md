@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configuring HTTPS for the Node App Server"
+title:  "Configuring HTTPS for the Server"
 date:   2020-02-04
 categories: node-app
 tags: node-app

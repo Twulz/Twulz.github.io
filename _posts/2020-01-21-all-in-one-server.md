@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configuring the all-in-one Server"
+title:  "Configuring the All-in-One Server"
 date:   2020-01-21
 categories: node-app jenkins
 tags: node-app jenkins cicd
