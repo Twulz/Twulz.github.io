@@ -2,8 +2,8 @@
 layout: post
 title:  "Configuring the All-in-One Server"
 date:   2020-01-21
-categories: node-app jenkins
-tags: node-app jenkins cicd
+categories: node-app jenkins server
+tags: node-app jenkins cicd apache
 ---
 
 In this post I'm basically starting the CI/CD pipeline from scratch on a new server - this time I'll keep it running 24/7 so I can get moving on the projects that will interact with it. This involves setting up Jenkins and the CI/CD pipeline again, configuring Apache as a reverse proxy and finally adding an SSL certificate to implement HTTPS for added security.

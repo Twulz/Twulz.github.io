@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 4: Jenkins Issues"
 date:   2019-09-17
-categories: cicd jenkins node-app
-tags: cicd jenkins node
+categories: jenkins server node-app
+tags: jenkins server node-app git
 ---
 
 Last time I did the initial configuration of Jenkins but I'm having a few issues. Today I'll be troubleshooting these issues and making sure GitHub and Jenkins are hooked up correctly, and that all the automated tests run and pass successfully.
@@ -41,17 +41,17 @@ Finished: FAILURE
 
 I checked the Build environment in Jenkins:
 
-![No NodeJS installation?](/images/nodeApp/03_add_npm_to_path.JPG)
+![No NodeJS installation?](/images/server/03_add_npm_to_path.JPG)
 
 **Solution:** I hadn't configured NodeJS plugin for Jenkins!
 So I followed [these instructions][install-node] to install Node within Jenkins.
 
 
-![Add NodeJS installation to jenkins](/images/nodeApp/04_add_NodeJS_installer.JPG)
+![Add NodeJS installation to jenkins](/images/server/04_add_NodeJS_installer.JPG)
 
 This then meant that there was a Node.js installation to choose in the Build Environment page again:
 
-![Now add npm to path](/images/nodeApp/05_add_npm_to_path.JPG)
+![Now add npm to path](/images/server/05_add_npm_to_path.JPG)
 
 ## Problem: Permission denied
 
@@ -141,7 +141,7 @@ So I added the --exit flag to the test script and the test finally PASSES!
 
 Finally, this isn't very important functionality-wise, but it was driving me crazy! The colour of a successful build in Jenkind defaults to blue, so I downloaded a simple `Green Balls` add-on which changes this to green.
 
-![Green balls](/images/nodeApp/06_green_balls.JPG)
+![Green balls](/images/server/06_green_balls.JPG)
 
 
 
