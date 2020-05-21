@@ -2,8 +2,8 @@
 layout: post
 title:  "Installing MySQL and phpMyAdmin on the Server"
 date:   2020-02-16
-categories: server
-tags: server LAMP
+categories: server node-app
+tags: node-app server LAMP
 ---
 
 With my server now secured I'm installing MySQL and phpMyAdmin for the database and to view and configure it via a GUI.
