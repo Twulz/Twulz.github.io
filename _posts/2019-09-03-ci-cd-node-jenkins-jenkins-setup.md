@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 3: Configure Jenkins"
 date:   2019-09-03
-categories: cicd jenkins node-app
-tags: cicd jenkins node
+categories: jenkins server
+tags: jenkins server cicd git
 ---
 
 Today I'm carrying on with my CI/CD pipeline by creating the Jenkins server that will do the automated testing and deployment of the Node-App.
@@ -83,7 +83,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 In classic hacker style - *I'm IN*, so next I had to set it up with a user and password and all of the following settings:
 
-![Jenkins configuration](/images/nodeApp/01_jenkins_setup.JPG)
+![Jenkins configuration](/images/server/01_jenkins_setup.JPG)
 
 Note the Repo URL, GitHub hook trigger and the script in the Build section:
 ```sh
@@ -93,7 +93,7 @@ npm install
 
 Next I had to configure the webhook so GitHub would tell Jenkins every time there was a new commit, so within the GitHub repo settings, add the `https://IP-ADDRESS/github-webhook/` Payload URL.
 
-![Github webhook lookup](/images/nodeApp/02_webhook_setup.JPG)
+![Github webhook lookup](/images/server/02_webhook_setup.JPG)
 
 ## Testing
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Configuring HTTPS for Jenkins on the All-in-One Server"
 date:   2020-02-15
-categories: node-app jenkins
-tags: node-app jenkins
+categories: server jenkins
+tags: server jenkins https
 ---
 
 In my [last blog post]({ % post_url 2020-02-04-configuring-https }) I registered a new domain name and installed a Let's Encrypt certificate to configure HTTPS, but now I reconfigured it so Jenkins would be secured too and could be reached on `https://imade-aserver.xyz/jenkins`.
@@ -94,7 +94,7 @@ sudo systemctl restart jenkins
 
 I went to `Jenkins > Manage Jenkins > Configure System` and updated the location to be the subdirectory:
 
-![Jenkins Location](/images/NodeApp/10_jenkins_location.jpg)
+![Jenkins Location](/images/server/10_jenkins_location.jpg)
 
 
 ## Delete the firewall rule for port 8080
@@ -122,7 +122,7 @@ After the above configuration I can now access the Node App at: `https://imade-a
 
 So after setting up the above I got an error message `It appears that your reverse proxy setup is broken`:
 
-![Reverse Proxy is Broken](/images/NodeApp/11_jenkins_reverse_proxy_broken.jpg)
+![Reverse Proxy is Broken](/images/server/11_jenkins_reverse_proxy_broken.jpg)
 
 I found from [this link][reverseproxy] that I needed to add the `RequestHeader` parameters to the `/etc/apache2/sites-available/imade-aserver.xyz-le-ssl.conf` file, here is the completed file:
 

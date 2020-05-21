@@ -2,8 +2,8 @@
 layout: post
 title:  "Testing the Authentication Routes in Mocha"
 date:   2020-03-17
-categories: node-app
-tags: node-app authentication database
+categories: server node-app
+tags: server node-app authentication database knex mocha nodejs javascript
 ---
 
 With all the changes made in [the last]({% post_url 2020-02-25-adding-database %}) [few posts]({% post_url 2020-02-18-adding-authentication %}), obviously my Hello World tests would now fail and I needed to write new ones to verify the authentication was working correctly.
@@ -241,7 +241,7 @@ POST / 400 0.130 ms - 88
 
 And finally add the tests to the Build in Jenkins:
 
-![Jenkins build](/images/nodeApp/13_build_new_tests.PNG)
+![Jenkins build](/images/server/13_build_new_tests.PNG)
 
 And done! with the Mocha tests passing in Jenkins my builds could finally be deployed to my production server! Now what did I want to do with my server again...?
 

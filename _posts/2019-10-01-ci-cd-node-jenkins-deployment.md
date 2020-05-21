@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 5: Deployment"
 date:   2019-10-01
-categories: jenkins node-app
-tags: jenkins cicd node helloWorld
+categories: jenkins node-app server
+tags: jenkins cicd node-app helloWorld server
 ---
 
 Now that the Continuous Integration part of my pipeline was working, today I got the Continuous Delivery/Deployment part working to automatically deploy to the live server.

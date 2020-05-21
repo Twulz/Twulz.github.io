@@ -62,10 +62,10 @@ navbar_list:
 - name: Engineering Things
   link: /engprojects/
   dropdown: &dropdown
+  - name: All-In-One Server
+    link: /engprojects/server/
   - name: Basil the DonkeyCar
     link: /engprojects/donkeycar/
-  - name: Node-App
-    link: /engprojects/nodeApp/
   - name: Final Year Projects
     link: /engprojects/fyp/
   - name: Orrery

@@ -2,8 +2,8 @@
 layout: post
 title:  "Configuring HTTPS for the Server"
 date:   2020-02-04
-categories: node-app
-tags: node-app
+categories: server
+tags: server https security
 ---
 
 Today I'm adding HTTPS support to my new [All in One Server]({ % post_url 2020-01-21-all-in-one-server }) by registering a domain name and installing an SSL certificate from Lets Encrypt.
