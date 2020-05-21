@@ -2,8 +2,8 @@
 layout: post
 title:  "Testing the Authentication Routes in Mocha"
 date:   2020-03-17
-categories: nodeapp
-tags: nodeapp authentication database
+categories: node-app
+tags: node-app authentication database
 ---
 
 With all the changes made in [the last]({% post_url 2020-02-25-adding-database %}) [few posts]({% post_url 2020-02-18-adding-authentication %}), obviously my Hello World tests would now fail and I needed to write new ones to verify the authentication was working correctly.

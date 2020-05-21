@@ -2,8 +2,8 @@
 layout: post
 title:  "Adding Authentication to the Node App"
 date:   2020-02-18
-categories: nodeapp
-tags: nodeapp authentication
+categories: node-app
+tags: node-app authentication
 ---
 
 After installing MySQL I realised that I needed a better solution than just storing plaintext usernames and passwords in an authentication table. So while I'm on my security-spree I've decided to implement the authentication middleware for the Node App including salting and hashing passwords using `bcrypt` and issuing JSON Web Tokens (JWT) to authenticate subsequent requests.
