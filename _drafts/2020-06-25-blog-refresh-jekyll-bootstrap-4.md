@@ -34,8 +34,6 @@ I also updated the `custom domain` in `Settings` on GitHub with the new domain a
 
 ## Update to Bootstrap 4
 
-### Installation & Theming
-
 As I mentioned in the intro, a huge source of embarrassment with my blog had to do with how it wasn't really responsive and was absolutely horrible on mobile.
 
 ![Imade-athing.com on mobile](/images/blog/01_horrible_mobile.jpg)
@@ -44,9 +42,13 @@ As I mentioned in the intro, a huge source of embarrassment with my blog had to 
 
 The old blog did in fact use Bootstrap - version 2, so there was _some_ responsiveness where the menu moved to the newline, images became smaller, etc. I was planning to review the whole thing anyway though so I thought I should bring it up to the latest version of Bootstrap and learn how to create a layout properly.
 
-I'm not particularly artistic (or masochistic?) enough to create my own theme so I downloaded and installed the [free `Pulse` theme from Bootswatch][https://bootswatch.com/pulse/] to make everything pretty!
+### Installation & Theming
 
-To install this I just downloaded the sass `_variables.scss` and `_bootswatch.scss` to my `_sass` directory, making sure to import them in my `assets\main.scss` file.
+I downloaded the [source files][get-bootstrap] as I'm using Jekyll which can build the sass files. I unzipped the files and created a `_sass` folder with a `bootstrap-4-5-0` folder inside. I then copied the contents of the `sass` folder in the source files to that bootstrap folder.
+
+I'm not particularly artistic (or masochistic?) enough to create my own theme so I downloaded and installed the [free `Pulse` theme from Bootswatch][bootswatch] to make everything pretty! To install this I just needed to download their `_variables.scss` and `_bootswatch.scss` files into my `_sass` folder. To further customise I also created `_bootstrap_customisation.scss` where I could put anything I wrote myself so if I was to update bootstrap I could adapt my customisations too without having to sift through the old bootstrap.
+
+Finally, I created a `main.scss` file inside the `assets` folder and imported all of the above files like this:
 
 ```scss
 ---
@@ -54,9 +56,7 @@ To install this I just downloaded the sass `_variables.scss` and `_bootswatch.sc
 ---
 
 @import "variables";
-@import "bootstrap/bootstrap";
-@import "syntax-highlighting";
-@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+@import "bootstrap-4-5-0/bootstrap";
 @import "bootswatch";
 @import "bootstrap_customisation";
 ```
@@ -65,6 +65,11 @@ To install this I just downloaded the sass `_variables.scss` and `_bootswatch.sc
 
 
 
+
+
 ![The Dark Souls Board Game](/images/darksouls/15_enemies_painted.jpg){: .rounded .mx-auto .d-block }
 
 https://medium.com/better-programming/an-introduction-to-using-jekyll-with-bootstrap-4-6f2433afeda9
+
+[get-bootstrap]: https://getbootstrap.com/docs/4.5/getting-started/download/
+[bootswatch]: https://bootswatch.com/pulse/
