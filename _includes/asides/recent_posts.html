@@ -1,18 +1,25 @@
-			<section id="sidebar-recent-posts" class="well">
-				<h3 class="mini-icon">Recent Posts</h3>
-				<ul id="recent_posts" class="nav nav-list">
-{% for post in site.posts limit: site.recent_posts %}
-					<li class="post"><p>
-						{{ post.date | date: "%d-%m-%Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	{% if site.disqus.short_name and site.disqus.comment_count and post.comments %}
-						<br><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"
-						data-disqus-identifier="{{ site.baseurl }}{{ post.id }}"
-						class="disqus-comment_count">Comments</a>
-	{% endif %}
-					</p></li>
-	{% unless forloop.last %}
-					<li class="divider"></li>
-	{% endunless %}
-{% endfor %}
-				</ul>
-			</section>
+<div class="card my-2">
+    <div class="card-body">
+        <h5 class="card-title">
+            <a href="{{ site.baseurl }}/blog/archives/">
+                <i class="far fa-file-alt" aria-hidden="true"></i>
+                Recent Posts
+            </a>
+        </h5>
+        <p class="card-text">
+            <ul class="list-unstyled">
+                {% for post in site.posts limit: site.recent_posts %}
+                    <li>
+                        <p>
+                            {{ post.date | date: "%d-%m-%Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                        </p>
+                    </li>
+                    {% unless forloop.last %}
+                        <li class="divider"></li>
+                    {% endunless %}
+                {% endfor %}
+            </ul>
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
