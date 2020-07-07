@@ -8,7 +8,7 @@ tags: blog
 
 After playing with bootstrap a bit for the budget app, and with all of the web development I'm now doing at work I was really dragging my feet in updating this blog. 
 
-I made it in 2014 when the extent of my web development knowledge was what I learned on [Lissa Explains it All][http://www.lissaexplains.com/] (to my absolute delight it's still around, and still looks the same!) This was back in the late 90's and used on absolute bangers of websites as [Neopets][https://www.neopets.com], Geocities and of course my [MySpace][https://www.myspace.com] page. I basically knew enough not to plaster my shiny new blog with [amazing animations, javascript jokes and music that you can't turn off][https://www.cameronsworld.net/] (warning: I'm not joking about the music!)- but not quite enough to make a blog using best practices.
+I made it in 2014 when the extent of my web development knowledge was what I learned on [Lissa Explains it All][lissa] (to my absolute delight it's still around, and still looks the same!) This was back in the late 90's and used on absolute bangers of websites as [Neopets][neopets], Geocities and of course my [MySpace][myspace] page. I basically knew enough not to plaster my shiny new blog with [amazing animations, javascript jokes and music that you can't turn off][nineties] (warning: I'm not joking about the music!)- but not quite enough to make a blog using best practices.
 
 I'm older and somewhat wiser and tring to access my blog on mobile was hurting my soul, so definitely time for a refresh!
 
@@ -63,13 +63,38 @@ Finally, I created a `main.scss` file inside the `assets` folder and imported al
 
 ### Layout & Customisation
 
+I had to update the Gemfile and run bundle install to install the latest version of jekyll and get rid of some of the extra crap I had in here.
+
+then clear it with `bundle clean` and update `bundle update`
+
+now I can run `jekyll serve` without `bundle exec jekyll serve`
+
+Then I manually updated `_syntax-highlighting.scss` to use my theme colours because I was really sick of all the red! I also updated the `_bootstrap_customisation.scss` with a few more things to make it look nice.
+
+
+
+All my images were not responsive in the old design (or indeed formatted properly _at all_) but I also didn't want to go back and update every single `img` tag on my site so I added another line to my `_bootstrap_customisation.scss` file to convert all my images to use the bootstrap `img-fluid` class using the `@extend` keyword:
+
+```scss
+img {
+  @extend .img-fluid;
+  @extend .rounded; 
+  @extend .mx-auto; 
+  @extend .d-block
+}
+```
 
 
 
 
-![The Dark Souls Board Game](/images/darksouls/15_enemies_painted.jpg){: .rounded .mx-auto .d-block }
+
+![The Dark Souls Board Game](/images/darksouls/15_enemies_painted.jpg)
 
 https://medium.com/better-programming/an-introduction-to-using-jekyll-with-bootstrap-4-6f2433afeda9
 
+[lissa]: http://www.lissaexplains.com/
+[neopets]: https://www.neopets.com
+[myspace]: https://www.myspace.com
+[nineties]: https://www.cameronsworld.net/
 [get-bootstrap]: https://getbootstrap.com/docs/4.5/getting-started/download/
 [bootswatch]: https://bootswatch.com/pulse/
