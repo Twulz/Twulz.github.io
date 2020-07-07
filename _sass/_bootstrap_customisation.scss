@@ -53,3 +53,26 @@
   border-radius: 0.5rem !important;
   background: $gray-200 !important;
 }
+
+.highlight {
+  border-radius: 0.5rem !important;
+}
+
+.breadcrumb {
+  border-radius: 0.5rem !important;
+}
+
+.btn {
+  border-radius: 0.5rem !important;
+}
+
+.highlight pre{
+  white-space: pre-wrap;
+}
+
+img {
+  @extend .img-fluid;
+  @extend .rounded; 
+  @extend .mx-auto; 
+  @extend .d-block
+}
