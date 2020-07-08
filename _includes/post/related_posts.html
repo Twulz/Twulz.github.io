@@ -1,11 +1,24 @@
-					<nav id="related-posts" class="well">
-						<h3>You might also like</h3>
-						<ul>
-							{% for post in site.related_posts limit:5 %}
-							<li class="related-post">
-								<span>{{ post.date | date: site.date_format }}</span> - 
-								<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-							</li>
-							{% endfor %}
-						</ul>
-					</nav>
+<div class="card my-2 flex-fill">
+    <div class="card-body">
+        <h5 class="card-title">
+            <a href="{{ site.baseurl }}/blog/archives/">
+                <i class="fas fa-link" aria-hidden="true"></i>
+                Related Posts
+            </a>
+        </h5>
+        <p class="card-text">
+            <ul class="list-unstyled">
+                {% for post in site.related_posts limit:5 %}
+					<li class="related-post">
+                        <p class="my-1">
+                            {{ post.date | date: "%d-%m-%Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                        </p>
+                    </li>
+                    {% unless forloop.last %}
+                        <li class="divider"></li>
+                    {% endunless %}
+                {% endfor %}
+            </ul>
+        </p>
+    </div>
+</div>

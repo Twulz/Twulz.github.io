@@ -1,23 +1,52 @@
 {% assign post_meta = true %}
-					<section id="post-meta" class="well well-small">
-						<ul>
-							<li id="meta-user" class="mini-icon"><span class="meta">Author:</span>
-								<ul><li>{{ site.author }}</li></ul>
+	<div class="card my-2 flex-fill">
+		<div class="card-body">
+			<h5 class="card-title">
+				<a href="#">
+					<i class="far fa-file" aria-hidden="true"></i>
+					Post Details
+				</a>
+			</h5>
+			<p class="card-text">
+				<ul class="list-unstyled">
+					<li id="meta-user">
+						<ul class="list-unstyled author-list">
+							<li class="list-inline-item">
+								<span class="meta">
+									<i class="fa fa-user"></i> Author:
+								</span>
 							</li>
-{% if page.categories.first %}
-							<li id="meta-category" class="mini-icon"><span class="meta">Category:</span>
-								<ul class="tag-list">
-	{% include libs/list_categories %}
-								</ul>
+							<li class="list-inline-item">
+								{{ site.author }}
 							</li>
-{% endif %}
-{% if page.categories.first %}
-							<li id="meta-tags" class="mini-icon"><span class="meta">Tags:</span>
-								<ul class="tag-list">
-	{% include libs/list_tags %}
-								</ul>
-							</li>
-{% endif %}
 						</ul>
-					</section>
+					</li>
+					{% if page.categories.first %}
+						<li id="meta-category">
+							<ul class="list-unstyled tag-list">
+								<li class="list-inline-item">
+									<span class="meta">
+										<i class="fa fa-user"></i> Categories:
+									</span>
+								</li>
+								{% include libs/list_categories.html %}
+							</ul>
+						</li>
+					{% endif %}
+					{% if page.categories.first %}
+						<li id="meta-tags">
+							<ul class="list-unstyled tag-list">
+								<li class="list-inline-item">
+									<span class="meta">
+										<i class="fas fa-tags"></i> Tags:
+									</span>
+								</li>
+								{% include libs/list_tags.html %}
+							</ul>
+						</li>
+					{% endif %}
+				</ul>
+			</p>
+		</div>
+	</div>
 {% assign post_meta = nil %}
