@@ -76,3 +76,12 @@ img {
   @extend .mx-auto; 
   @extend .d-block
 }
+
+.pagination-button:hover { 
+    color: $white !important; 
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: $indigo !important;
+}
