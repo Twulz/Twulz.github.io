@@ -38,6 +38,7 @@ navbar_list:
   - name: Tags
     link: /blog/tags
 - name: Things
+  link: /things/
   dropdown: &dropdown
   - name: Engineering Things
     link: /engprojects/

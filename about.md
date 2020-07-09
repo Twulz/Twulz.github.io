@@ -1,5 +1,6 @@
 ---
-layout: single-with-sidebar
+layout: default
+group: About
 title:  "About me & my site"
 ---
 

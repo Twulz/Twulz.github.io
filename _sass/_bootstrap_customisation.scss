@@ -85,3 +85,10 @@ a:hover {
   text-decoration: none !important;
   color: $indigo !important;
 }
+
+.jumbotron {
+  border-radius: 0.5rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(0, 0, 0, 0.125) !important;
+}
