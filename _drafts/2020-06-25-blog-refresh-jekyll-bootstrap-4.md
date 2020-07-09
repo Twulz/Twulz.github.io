@@ -8,6 +8,8 @@ tags: blog
 
 After playing with bootstrap a bit for the budget app, and with all of the web development I'm now doing at work I was really dragging my feet in updating this blog. 
 
+<!--more-->
+
 I made it in 2014 when the extent of my web development knowledge was what I learned on [Lissa Explains it All][lissa] (to my absolute delight it's still around, and still looks the same!) This was back in the late 90's and used on absolute bangers of websites as [Neopets][neopets], Geocities and of course my [MySpace][myspace] page. I basically knew enough not to plaster my shiny new blog with [amazing animations, javascript jokes and music that you can't turn off][nineties] (warning: I'm not joking about the music!)- but not quite enough to make a blog using best practices.
 
 I'm older and somewhat wiser and tring to access my blog on mobile was hurting my soul, so definitely time for a refresh!

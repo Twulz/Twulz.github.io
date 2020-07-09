@@ -9,7 +9,16 @@
 
     {% include navbar.html %}
 
-    {{ content }}
+
+    <div class="container-fluid my-2">
+      <div class="row justify-content-center">
+
+        {{ content }}
+
+        {% include asides.html %}
+        
+      </div>
+    </div>
 
     {% include footer.html %}
 

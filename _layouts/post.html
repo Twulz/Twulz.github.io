@@ -2,52 +2,35 @@
 layout: default
 group: Blog
 ---
-<div class="container-fluid my-2">
-	<div class="row justify-content-center">
-		<div class="col-xl-8 col-lg-9">
-			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="/">Home</a></li>
-					{% for category in page.categories %}
-						<li class="breadcrumb-item"><a href="#">{{ category }}</a></li>
-					{% endfor %}
-					<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-				</ol>
-			</nav>
-			<article class="single post">
-				<h1>
-					<a href="{{ site.baseurl }}{{ page.url }}" rel="bookmark" title="Permanent link">{{ page.title }}</a>
-				</h1>
-				<p class="h6">
-					<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
-				</p>
+<div class="col-xl-8 col-lg-9">
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="/">Home</a></li>
+			{% for category in page.categories %}
+				<li class="breadcrumb-item"><a href="#">{{ category }}</a></li>
+			{% endfor %}
+			<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+		</ol>
+	</nav>
+	<article class="single post">
+		<h1>
+			<a href="{{ site.baseurl }}{{ page.url }}" rel="bookmark" title="Permanent link">{{ page.title }}</a>
+		</h1>
+		<p class="h6">
+			<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+		</p>
 
-				{{ content }}
+		{{ content }}
 
-				{% include post/post_pagenation.html %}
-				<hr />
-				<div class="row justify-content-center">
-					<div class="col-md-6 d-flex align-items-stretch">
-						{% include post/post_meta.html %}
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch">
-						{% include post/related_posts.html %}
-					</div>
-				</div>
-			</article>
-		</div>
-		<div class="col-lg-3 col-md-12 col-sm-12">
-			<div class="row justify-content-center">
-				<div class="col-sm-12 col-md-8 col-lg-12">
-					{% include asides/about.html %}
-				</div>
-				<div class="col-sm-6 col-lg-12">
-					{% include asides/recent_posts.html %}
-				</div>
-				<div class="col-sm-6 col-lg-12 d-flex align-items-stretch">
-					{% include asides/archives.html %}
-				</div>
+		{% include post/post_pagenation.html %}
+		<hr />
+		<div class="row justify-content-center">
+			<div class="col-md-6 d-flex align-items-stretch">
+				{% include post/post_meta.html %}
+			</div>
+			<div class="col-md-6 d-flex align-items-stretch">
+				{% include post/related_posts.html %}
 			</div>
 		</div>
-	</div>
+	</article>
 </div>
