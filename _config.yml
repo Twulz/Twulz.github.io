@@ -6,6 +6,8 @@ lsi: false
 kramdown:
   input: GFM
 excerpt_separator: <!--more-->
+sass:
+  sass_dir: ./_sass
 
 # Configuration for site
 title: I Made a Thing!
