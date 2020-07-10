@@ -49,6 +49,10 @@
   line-height: 2rem !important;
 }
 
+.nav-link {
+  display: inline-block !important;
+}
+
 .card {
   border-radius: 0.5rem !important;
   background: $gray-200 !important;
@@ -91,4 +95,17 @@ a:hover {
   border-width: 1px !important;
   border-style: solid !important;
   border-color: rgba(0, 0, 0, 0.125) !important;
+}
+
+li.nav-item.dropdown-toggle.dropdown-toggle-split::after {
+  display: none !important;
+}
+
+.dropdown-light-text:hover {
+  color: $white !important;
+}
+
+.dropdown-menu.show {
+  background-color: $gray-200;
+  border-radius: 0.5rem;
 }

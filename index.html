@@ -7,7 +7,7 @@ title: Home
 {% include libs/truncate_start %}
 {% for post in paginator.posts limit: 1 %}
 	<!-- Featured Article -->
-	<div class="jumbotron">
+	<div class="jumbotron py-4">
 		<h1 class="display-4"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		<p class="lead">
 			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
@@ -25,29 +25,29 @@ title: Home
 {% capture n %}{{ site.paginate | minus: 1 }}{% endcapture %}
 {% for post in paginator.posts limit: n offset: 1 %}
 	{% if m == 0 %}
-			<!-- Followed Articles -->
-			<div class="row">
+		<!-- Followed Articles -->
+		<div class="row">
 	{% endif %}
-				<div class="col-sm-6 col-md-4 my-1">
-					{% include libs/thumbnail %}
-					<h4>
-						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					</h4>
-					<h5>
-						<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
-					</h5>
-					<div class="content">
-						{{ post.excerpt }}
-					</div>
-					<a class="btn btn-secondary btn-sm" href="{{ site.baseurl }}{{ post.url }}" class="btn">Read this &raquo;</a>
+			<div class="col-sm-6 col-md-4 my-1">
+				{% include libs/thumbnail %}
+				<h4>
+					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				</h4>
+				<h5>
+					<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
+				</h5>
+				<div class="content">
+					{{ post.excerpt }}
 				</div>
+				<a class="btn btn-secondary btn-sm" href="{{ site.baseurl }}{{ post.url }}" class="btn">Read this &raquo;</a>
+			</div>
 	{% capture m %}{{ m | plus: 1 }}{% endcapture %}
 	{% if forloop.last %}
-			</div><!--/row-fluid-->
+		</div><!--/row-fluid-->
 		{% assign m = 0 %}
 	{% endif %}
 {% endfor %}
 {% include libs/truncate_end %}
 {% include pagenation.html %}
-<hr class="d-lg-none"/>
+<hr class="d-lg-none" />
 </div>

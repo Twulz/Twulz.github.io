@@ -3,7 +3,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
         {% for node in site.navbar_list %}
             {% if node.name == page.group %}
                 {% assign active = 'active' %}
@@ -11,18 +11,18 @@
                 {% assign active = nil %}
             {% endif %}
             {% if node.dropdown %}
-                <li class="nav-item {{ active }}">
-                    <a class="nav-link pr-0" href="{{ site.baseurl }}{{ node.link }}">{{ node.name }}</a>
-                </li>
-                <li class="nav-item dropdown {{ active }}">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropDownMenuLink">
-                    {% for sub in node.dropdown %}
-                        <a class="dropdown-item" href="{{ site.baseurl }}{{ sub.link }}">{{ sub.name }}</a>
-                    {% endfor %}
-                    </div>
-                </li>
+                <div class="btn-group">
+                    <li class="nav-item {{ active }} dropdown-toggle dropdown-toggle-split">
+                        <!-- Don't separate the following 2 a classes, whitespace affects css rendering! -->
+                        <a href="{{ site.baseurl }}{{ node.link }}" class="nav-link" >{{ node.name }}</a><a class="dropdown-toggle dropdown-toggle-split nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="sr-only">Toggle Dropdown</span></a>
+                        <div class="dropdown-menu">
+                            {% for sub in node.dropdown %}
+                                <a class="dropdown-item dropdown-light-text" href="{{ site.baseurl }}{{ sub.link }}">{{ sub.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </li>
+                </div>
             {% else %}
                 <li class="nav-item {{ active }}">
                     <a class="nav-link" href="{{ site.baseurl }}{{ node.link }}">{{ node.name }}</a>
