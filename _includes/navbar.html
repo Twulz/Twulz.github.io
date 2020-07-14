@@ -12,9 +12,9 @@
             {% endif %}
             {% if node.dropdown %}
                 <div class="btn-group">
-                    <li class="nav-item {{ active }} dropdown-toggle dropdown-toggle-split">
+                    <li class="nav-item {{ active }} dropdown-toggle dropdown-toggle-split dropdown-no-padding-left">
                         <!-- Don't separate the following 2 a classes, whitespace affects css rendering! -->
-                        <a href="{{ site.baseurl }}{{ node.link }}" class="nav-link" >{{ node.name }}</a><a class="dropdown-toggle dropdown-toggle-split nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="{{ site.baseurl }}{{ node.link }}" class="nav-link" >{{ node.name }}</a><a class="dropdown-toggle dropdown-toggle-split nav-link dropdown-sm-padding" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 <span class="sr-only">Toggle Dropdown</span></a>
                         <div class="dropdown-menu">
                             {% for sub in node.dropdown %}

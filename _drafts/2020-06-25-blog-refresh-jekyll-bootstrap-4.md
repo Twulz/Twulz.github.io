@@ -86,6 +86,18 @@ img {
 }
 ```
 
+#### Navbar dropdown:
+
+There was a double caret (dropdown)
+
+![Double dropdown caret](/images/blog/navbar_double_dropdown.png)
+
+```scss
+li.nav-item.dropdown-toggle.dropdown-toggle-split::after {
+  display: none !important;
+}
+```
+
 
 
 
