@@ -109,3 +109,12 @@ li.nav-item.dropdown-toggle.dropdown-toggle-split::after {
   background-color: $gray-200;
   border-radius: 0.5rem;
 }
+
+.dropdown-no-padding-left {
+  padding-left: 0rem !important;
+}
+
+.dropdown-sm-padding {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
