@@ -30,12 +30,15 @@
   color: rgba(255, 255, 255, 1) !important;
 }
 
-.navbar-dark .nav-item.active .nav-link {
-  background: #472778; /* Old browsers */
-  background: -moz-linear-gradient(bottom, $purple, #472778); /* FF3.6-15 */
-  background: -webkit-linear-gradient(bottom, $purple, #472778); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to top, $purple, #472778); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+@include media-breakpoint-up(md) {
+  .navbar-dark .nav-item.active .nav-link {
+    background: #472778; /* Old browsers */
+    background: -moz-linear-gradient(bottom, $purple, #472778); /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, $purple, #472778); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, $purple, #472778); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
 }
+
 
 .bg-gradient {
   background: $purple; /* Old browsers */
