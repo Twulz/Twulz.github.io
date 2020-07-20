@@ -4,7 +4,7 @@
     </button>
     <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
         <ul class="navbar-nav">
-        {% for node in site.navbar_list %}
+        {% for node in site.navbar_list_large %}
             {% if node.name == page.group %}
                 {% assign active = 'active' %}
             {% else %}

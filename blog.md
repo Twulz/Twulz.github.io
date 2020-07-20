@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: general
 group: Blog
 title:  "Blog"
 ---

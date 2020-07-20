@@ -1,7 +1,7 @@
 ---
-layout: default
-group: Things
-title:  "Things"
+layout: general
+group: "Things:"
+title: Things
 ---
 
 asdf

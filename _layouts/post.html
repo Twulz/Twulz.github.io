@@ -1,36 +1,23 @@
 ---
-layout: default
+layout: general
 group: Blog
 ---
-<div class="col-xl-8 col-lg-9">
-	<nav aria-label="breadcrumb">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="/">Home</a></li>
-			{% for category in page.categories %}
-				<li class="breadcrumb-item"><a href="#">{{ category }}</a></li>
-			{% endfor %}
-			<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-		</ol>
-	</nav>
-	<article class="single post">
-		<h1>
-			<a href="{{ site.baseurl }}{{ page.url }}" rel="bookmark" title="Permanent link">{{ page.title }}</a>
-		</h1>
-		<p class="h6">
-			<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
-		</p>
 
-		{{ content }}
+<p class="h6">
+	<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+</p>
 
-		{% include post/post_pagenation.html %}
-		<hr />
-		<div class="row justify-content-center">
-			<div class="col-md-6 d-flex align-items-stretch">
-				{% include post/post_meta.html %}
-			</div>
-			<div class="col-md-6 d-flex align-items-stretch">
-				{% include post/related_posts.html %}
-			</div>
-		</div>
-	</article>
+{{ content }}
+
+{% include post/post_pagenation.html %}
+
+<hr />
+
+<div class="row justify-content-center">
+	<div class="col-md-6 d-flex align-items-stretch">
+		{% include post/post_meta.html %}
+	</div>
+	<div class="col-md-6 d-flex align-items-stretch">
+		{% include post/related_posts.html %}
+	</div>
 </div>
