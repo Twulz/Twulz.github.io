@@ -63,7 +63,7 @@ navbar_list_large:
     link: /blog/categories
   - name: Tags
     link: /blog/tags
-- name: 'Things:'
+- name: Things
   link: /things/
 - name: Mechatronics
   link: /things/mechatronics/

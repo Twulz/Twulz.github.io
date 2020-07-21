@@ -1,6 +1,6 @@
 ---
 layout: general
-group: "Things:"
+group: Things
 title: Things
 ---
 
