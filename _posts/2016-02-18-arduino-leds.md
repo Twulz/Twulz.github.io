@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing with Arduino LEDs"
 date:   2016-02-18
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: Arduino LED
 ---
 

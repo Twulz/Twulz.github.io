@@ -2,8 +2,8 @@
 layout: post
 title:  "Printing Adalinda the Dragon"
 date:   2016-08-18
-categories: Things Mechatronics 3DPrinter
-tags: 3DPrinter 3DPrint Prusa i3 MK2 Build
+categories: Things Mechatronics Printer
+tags: Printer 3DPrinter 3DPrint Prusa i3 MK2 Build
 ---
 
 ![Alinda dragon print](/images/printer/printer40_dragon.jpg)

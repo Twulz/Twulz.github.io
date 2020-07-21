@@ -2,7 +2,7 @@
 layout: post
 title:  "Building My Shed"
 date:   2017-11-25
-categories: Things Garden Other
+categories: Things Garden OtherGarden
 tags: Build Garden Shed
 ---
 

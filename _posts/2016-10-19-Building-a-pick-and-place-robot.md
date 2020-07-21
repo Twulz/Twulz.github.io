@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Pick-and-Place Robot using MyRIO and LabView"
 date:   2016-10-19
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: Robot PickAndPlace LabView
 ---
 

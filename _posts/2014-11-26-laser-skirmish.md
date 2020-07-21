@@ -2,7 +2,7 @@
 layout: post
 title:  "Building Laser Skirmish Laser Tag Guns"
 date:   2014-11-26
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: LaserTag Build Solder
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Building GLaDOS - My New PC"
 date:   2015-03-12
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: GLaDOS Build Computer PC
 ---
 

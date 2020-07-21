@@ -2,7 +2,7 @@
 layout: post
 title:  "$20 Transisor Tester"
 date:   2017-04-15
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: Fix Transistor Tester Tools
 ---
 
