@@ -6,7 +6,7 @@ hero_image:
     path: /images/jekyll_github.png
     alt: I Made a Thing Blog
 posts_title: "Here are the posts I have made so far about this blog:"
-category: jekyll
+category: Blog
 ---
 
 Creating this blog was a surprising challenge so I decided to record my experience here too!

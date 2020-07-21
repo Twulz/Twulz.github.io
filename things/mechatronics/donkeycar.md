@@ -6,7 +6,7 @@ hero_image:
     path: /images/donkeyCar/setup/05_basil.jpg
     alt: Basil Faulty the DonkeyCar
 posts_title: "Here are the posts I have made so far about Basil Faulty the DonkeyCar:"
-category: donkeyCar
+category: DonkeyCar
 ---
 
 Donkeycar is an open source platform to convert small scale (remote control) cars into self-driving cars. Donkeycar written in Python and is most often used with a Raspberry Pi and PiCam controlling an RC car by manipulating both steering and throttle.
