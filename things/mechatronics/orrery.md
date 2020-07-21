@@ -6,7 +6,7 @@ hero_image:
     path: /images/orrery/finished_04.jpg
     alt: Orrery
 posts_title: "Here are the posts I have made so far about the Orrery:"
-category: orrery
+category: Orrery
 ---
 
 I 3D printed and built this great model of most of the solar system.
