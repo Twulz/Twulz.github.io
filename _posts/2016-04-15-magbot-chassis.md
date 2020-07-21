@@ -2,8 +2,8 @@
 layout: post
 title:  "Magbot Chassis build"
 date:   2016-04-15
-categories: magbot
-tags: robot build solder otherEng
+categories: Things Mechatronics LedCube
+tags: MagBot Robot Build Solder
 ---
 
 ![MagBook](/projects/magbot/How-To-Build-A-Robot.jpg)

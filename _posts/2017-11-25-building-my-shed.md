@@ -2,8 +2,8 @@
 layout: post
 title:  "Building My Shed"
 date:   2017-11-25
-categories: gardening shed otherGarden
-tags: build gardening shed
+categories: Things Garden Other
+tags: Build Garden Shed
 ---
 
 ![Finished shed](/images/shed/06_finished.jpg)

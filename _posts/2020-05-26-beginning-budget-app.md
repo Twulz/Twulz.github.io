@@ -2,8 +2,8 @@
 layout: post
 title:  "Beginning the Budget App - Bootstrap"
 date:   2020-05-26
-categories: server node-app budget-app
-tags: server node-app database knex nodejs javascript budget-app bootstrap jquery ajax
+categories: Things Software Budget-App
+tags: Node-App Server NodeJs Database Knex Javascript Budget-App Bootstrap JQuery AJAX
 ---
 
 Now that I have at least one working route for my budget app I'm turning my attention to the front end. I'd like to get the full stack wired up end-to-end with displaying one table of data so I can make sure I haven't missed anything major! For this I've decided to use Bootstrap in the form of a premade layout as I don't fancy myself much of a CSS designer!

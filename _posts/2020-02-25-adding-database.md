@@ -2,8 +2,8 @@
 layout: post
 title:  "Connecting the Database to the Node App"
 date:   2020-02-25
-categories: server node-app
-tags: server node-app authentication database knex nodejs javascript
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript Authentication Knex MySQL SQL
 ---
 
 I'd [previously installed mysql]({% post_url 2020-02-16-installing-mysql-phpmyadmin %}) but the authentication I added in my [last blog post]({% post_url 2020-02-16-installing-mysql-phpmyadmin %}) just kept everything in memory so far so in this post I'll be using the MySQL database connected to Node using Knex to construct queries.

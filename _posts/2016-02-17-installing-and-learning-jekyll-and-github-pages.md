@@ -2,8 +2,8 @@
 layout: post
 title:  "Installing and Learning Jekyll and GitHub Pages"
 date:   2016-02-17
-categories: jekyll
-tags: jekyll git github pages ruby
+categories: Things Software Blog
+tags: Blog Jekyll Git Github-Pages
 ---
 
 I have been talking about making a blog for all of my hobbies and projects for a very long time and here we are; *I finally made the Thing!*

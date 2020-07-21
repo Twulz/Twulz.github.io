@@ -2,8 +2,8 @@
 layout: post
 title:  "Soldering the DonkeyCar Hat"
 date:   2019-05-04
-categories: donkeyCar robot machineLearning
-tags: robot AI machineLearning basil soldering donkeyCar
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car
 ---
 
 ![All the cars and components](/images/donkeyCar/solderingDay/02_all_components.jpg)

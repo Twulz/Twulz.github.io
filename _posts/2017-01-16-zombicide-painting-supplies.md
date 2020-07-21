@@ -2,8 +2,8 @@
 layout: post
 title:  "Zombicide: Miniature Painting Supplies"
 date:   2017-01-16
-categories: painting zombicide
-tags: paint painting zombicide mini miniature
+categories: Things Mini Zombicide
+tags: Paint Mini Miniature Zombicide BoardGame
 ---
 
 ![Zombicide Board Game](/images/zombicide/zombicide_box.jpg)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Building the Garden Net and Frame"
 date:   2017-05-21
-categories: gardening gardenNet otherGarden
-tags: gardening herbs garden frame
+categories: Things Garden Other
+tags: Garden Herbs Frame Build
 ---
 
 ![Net all done!](/images/gardenNet/32_done.jpg)

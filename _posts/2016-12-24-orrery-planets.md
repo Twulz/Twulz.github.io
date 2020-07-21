@@ -2,8 +2,8 @@
 layout: post
 title:  "Building an Orrery: Planets!"
 date:   2016-12-24
-categories: printer orrery
-tags: 3D print printer mk2 prusa i3 orrery
+categories: Things Mechatronics Orrery
+tags: 3DPrint Orrery Build
 ---
 
 ![Finished 1](/images/orrery/finished_01.jpg)

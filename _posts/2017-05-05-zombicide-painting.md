@@ -2,8 +2,8 @@
 layout: post
 title:  "Zombicide: First Paints"
 date:   2017-05-05
-categories: painting zombicide miniature
-tags: paint painting zombicide mini miniature
+categories: Things Mini Zombicide
+tags: Paint Mini Miniature Zombicide BoardGame
 ---
 
 ![First group finished](/images/zombicide/suit_group.jpg)

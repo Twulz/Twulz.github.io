@@ -2,8 +2,8 @@
 layout: post
 title:  "Building a Package Box for the Smart Home"
 date:   2018-09-13
-categories: nodejs esp32 fyp
-tags: smartHome esp32 nodejs 
+categories: Things Mechatronics FYP
+tags: SmartHome ESP32 NodeMCU NodeJs
 ---
 
 ![Completed Package Box](/images/mechatronicsFYP/10_package_box.jpg)

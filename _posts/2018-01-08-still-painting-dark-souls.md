@@ -2,8 +2,8 @@
 layout: post
 title:  "Still Painting the Dark Souls Board Game"
 date:   2018-01-08
-categories: painting mini darkSouls
-tags: painting mini darkSouls 
+categories: Things Mini DarkSouls
+tags: Paint Mini Miniature DarkSouls BoardGame
 ---
 
 ![The Dark Souls Board Game](/images/darksouls/15_enemies_painted.jpg)

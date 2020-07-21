@@ -2,8 +2,8 @@
 layout: post
 title:  "Building an Orrery: Gear Construction"
 date:   2016-12-23
-categories: printer orrery
-tags: 3D print printer mk2 prusa i3 orrery
+categories: Things Mechatronics Orrery
+tags: 3DPrint Orrery Build
 ---
 
 ![Base and All of the Gears](/images/orrery/finished_base02.jpg)

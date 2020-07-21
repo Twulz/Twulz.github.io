@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 3: Configure Jenkins"
 date:   2019-09-03
-categories: jenkins server
-tags: jenkins server cicd git
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript CICD Jenkins Git
 ---
 
 Today I'm carrying on with my CI/CD pipeline by creating the Jenkins server that will do the automated testing and deployment of the Node-App.

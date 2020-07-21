@@ -2,8 +2,8 @@
 layout: post
 title:  "Vegepod Update"
 date:   2018-02-11
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
 ---
 
 ![3 weeks of growth!](/images/vegepod/47_progress_feb_2018_3wks.jpg)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Beginning the Budget App - Finishing the First Route"
 date:   2020-05-19
-categories: server node-app budget-app
-tags: server node-app database knex nodejs javascript budget-app
+categories: Things Software Budget-App
+tags: Node-App Server NodeJs Database Knex Javascript Budget-App
 ---
 
 I realised that returning the username with the JWT is not useful to the rest of the app - I must return the `user_id` instead. This can then be used in future requests.

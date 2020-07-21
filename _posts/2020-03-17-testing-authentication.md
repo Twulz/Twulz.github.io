@@ -2,8 +2,8 @@
 layout: post
 title:  "Testing the Authentication Routes in Mocha"
 date:   2020-03-17
-categories: server node-app
-tags: server node-app authentication database knex mocha nodejs javascript
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript Authentication Knex Mocha
 ---
 
 With all the changes made in [the last]({% post_url 2020-02-25-adding-database %}) [few posts]({% post_url 2020-02-18-adding-authentication %}), obviously my Hello World tests would now fail and I needed to write new ones to verify the authentication was working correctly.

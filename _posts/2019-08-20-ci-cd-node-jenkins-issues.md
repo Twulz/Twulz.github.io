@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 2: Security Issues"
 date:   2019-08-20
-categories: server jenkins
-tags: jenkins server cicd
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript CICD Jenkins
 ---
 
 In my last blog post I set up the HelloWorld Node.js app on a Digital Ocean droplet. Today, I had a few security and access issues when re-creating the server using the snapshot I took previously.

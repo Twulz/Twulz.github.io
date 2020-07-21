@@ -2,8 +2,8 @@
 layout: post
 title:  "Soldering the Electronics and Finishing the LED Cube"
 date:   2014-09-24
-categories: c4x4x4 LED cube
-tags: c4x4x4 build veroboard solder
+categories: Things Mechatronics LedCube
+tags: Cube4x4x4 LED LEDCube Solder
 ---
 
 ![Finished Cube](/images/c4x4x4/finished01.jpg)

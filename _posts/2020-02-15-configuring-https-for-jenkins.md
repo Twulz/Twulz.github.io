@@ -2,8 +2,8 @@
 layout: post
 title:  "Configuring HTTPS for Jenkins on the All-in-One Server"
 date:   2020-02-15
-categories: server jenkins
-tags: server jenkins https
+categories: Things Software Server-App
+tags: Node-App Server-App Server Security HTTPS Apache Reverse-Proxy
 ---
 
 In my [last blog post]({ % post_url 2020-02-04-configuring-https }) I registered a new domain name and installed a Let's Encrypt certificate to configure HTTPS, but now I reconfigured it so Jenkins would be secured too and could be reached on `https://imade-aserver.xyz/jenkins`.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Beginning the Budget App - First Route"
 date:   2020-05-12
-categories: server node-app budget-app
-tags: server node-app REST api budget-app
+categories: Things Software Budget-App
+tags: Node-App Server NodeJs REST API Javascript Budget-App
 ---
 
 Instead of creating all those routes to create and update the accounts, categories and transactions, I decided for testing everything and getting it wired up I would just write the route to get all the transactions for a single user and then expand on the routes as required.

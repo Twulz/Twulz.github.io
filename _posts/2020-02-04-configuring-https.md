@@ -2,8 +2,8 @@
 layout: post
 title:  "Configuring HTTPS for the Server"
 date:   2020-02-04
-categories: server
-tags: server https security
+categories: Things Software Server-App
+tags: Node-App Server-App Server Security HTTPS Domain DNS Apache Reverse-Proxy
 ---
 
 Today I'm adding HTTPS support to my new [All in One Server]({ % post_url 2020-01-21-all-in-one-server }) by registering a domain name and installing an SSL certificate from Lets Encrypt.

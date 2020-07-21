@@ -2,8 +2,8 @@
 layout: post
 title:  "Building an Original i3 MK2 Kit 3D Printer - The Frame"
 date:   2016-08-16
-categories: printer
-tags: 3D print printer mk2 prusa i3
+categories: Things Mechatronics 3DPrinter
+tags: 3DPrinter 3DPrint Prusa i3 MK2 Build
 ---
 
 ![Frame complete](/images/printer/printer17_x_mounted.jpg)

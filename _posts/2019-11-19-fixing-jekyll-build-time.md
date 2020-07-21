@@ -2,8 +2,8 @@
 layout: post
 title:  "Fixing Jekyll Build Time"
 date:   2019-11-19
-categories: jekyll
-tags: github pages jekyll
+categories: Things Software Blog
+tags: Jekyll Blog Github-Pages
 ---
 
 I had slightly neglected this blog for a while - I had a lot of drafts and random notes about the place because my local build for Jekyll was taking 12 to 40 *minutes* to build. I had a few hours to kill so it was finally time to give this a bit of time.

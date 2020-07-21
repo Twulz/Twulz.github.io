@@ -2,8 +2,8 @@
 layout: post
 title:  "Adding an Apache Reverse Proxy for the Node App Server"
 date:   2019-12-10
-categories: node-app server
-tags: node-app apache server reverse-proxy
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript Apache Reverse-Proxy
 ---
 
 I want to add HTTPS support to the node-app server so today I configured an Apache Reverse Proxy to redirect traffic from port 80 and 443 (HTTP and HTTPS) to my node-app which runs on port 3000.

@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 4: Jenkins Issues"
 date:   2019-09-17
-categories: jenkins server node-app
-tags: jenkins server node-app git
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript CICD Git
 ---
 
 Last time I did the initial configuration of Jenkins but I'm having a few issues. Today I'll be troubleshooting these issues and making sure GitHub and Jenkins are hooked up correctly, and that all the automated tests run and pass successfully.
