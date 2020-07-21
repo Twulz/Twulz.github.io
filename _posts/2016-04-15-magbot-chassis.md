@@ -2,7 +2,7 @@
 layout: post
 title:  "Magbot Chassis build"
 date:   2016-04-15
-categories: Things Mechatronics LedCube
+categories: Things Mechatronics OtherMecha
 tags: MagBot Robot Build Solder
 ---
 

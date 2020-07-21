@@ -2,7 +2,7 @@
 layout: post
 title:  "Building the LED Cube"
 date:   2014-09-10
-categories: Things Mechatronics LedCube
+categories: Things Mechatronics Cube4x4x4
 tags: Cube4x4x4 LED LEDCube Solder
 ---
 

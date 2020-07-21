@@ -2,7 +2,7 @@
 layout: post
 title:  "Sourcing the LED Cube"
 date:   2014-09-08
-categories: Things Mechatronics LedCube
+categories: Things Mechatronics LEDCube
 tags: Cube4x4x4 LED LEDCube BOM
 ---
 
