@@ -1,12 +1,13 @@
 ---
-layout: general
+layout: category
 group: Garden
 title: Garden Things
+projects:
+    vegepod: "The Vegepod"
+    othergarden: "Other Garden Things"
+hero_image: 
+    path: /images/vegepod/progress_dec_2018_01.jpg
+    alt: Garden Things
 ---
 
-<img alt="Garden Things" src="/images/vegepod/progress_dec_2018_01.jpg">
-
 Here are a collection of gardening-related things I've made. Some are on-going projects with a few posts that have their own pages:
-
-* <a href="{{ post.baseurl }}/garden/vegepod/">The Vegepod</a>
-* <a href="{{ post.baseurl }}/garden/other/">Other Garden Things</a>

@@ -1,17 +1,17 @@
 ---
-layout: general
+layout: category
 group: Mechatronics
 title:  Mechatronics Things
+projects:
+    donkeycar: "Basil Faulty the DonkeyCar"
+    fyp: "My Final Year Projects"
+    orrery: "An Orrery: Model of the Solar System"
+    printer: "A Prusa i3 MK2 3D Printer"
+    cube4x4x4: "A 4x4x4 LED Cube"
+    otherMecha: "Other Mechatronics Things"
+hero_image: 
+    path: /images/pickAndPlace/11_complete_setup.jpg
+    alt: Mechatronics Things
 ---
 
-<img alt="Engineering Projects" src="{{ site.baseurl }}/images/pickAndPlace/11_complete_setup.jpg">
-
 Here are a collection of Mechatronics Engineering Things I've made. Some are on-going projects with a few posts that have their own pages:
-
-* <a href="{{ post.baseurl }}/engprojects/server/">All-In-One Server</a>
-* <a href="{{ post.baseurl }}/engprojects/donkeycar/">DonkeyCar</a>
-* <a href="{{ post.baseurl }}/engprojects/fyp/">Final Year Project</a>
-* <a href="{{ post.baseurl }}/engprojects/orrery/">Orrery</a>
-* <a href="{{ post.baseurl }}/engprojects/printer/">Prusa i3 3D Printer</a>
-* <a href="{{ post.baseurl }}/engprojects/cube4x4x4/">4x4x4 LED Cube</a>
-* <a href="{{ post.baseurl }}/engprojects/other/">Other Engineering Things</a>

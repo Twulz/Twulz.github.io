@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="col-xl-8 col-lg-9">
+
+	{% include breadcrumbs.html %}
+
+	<article>
+
+		<h1>
+			{{ page.title }}
+		</h1>
+
+		<p><img alt="{{ page.hero_image.alt }}" src="{{ site.baseurl }}{{ page.hero_image.path }}"></p>
+
+		{{ content }}
+
+		<ul>
+			{% for project in page.projects %}
+				<li>
+					<a href="{{ site.baseurl }}/things/{{ page.group }}/{{ project[0] }}">
+						{{ project[1] }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+
+	</article>
+</div>
