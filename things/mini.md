@@ -8,6 +8,8 @@ projects:
 hero_image: 
     path: /images/darksouls/12_groupshot.jpg
     alt: Miniature Things
+breadcrumbs: 
+- Things
 ---
 
 Here are a collection of gaming-related things I've made. Some are on-going projects with a few posts that have their own pages:

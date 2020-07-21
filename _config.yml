@@ -79,7 +79,7 @@ navbar_list_large:
   - name: Orrery
     link: /things/mechatronics/orrery/
   - name: 4x4x4 LED Cube
-    link: /things/mechatronics/cube4x4x4/
+    link: /things/mechatronics/ledcube/
   - name: Other Engineering Things
     link: /things/mechatronics/othermecha/
 - name: Software
@@ -89,6 +89,8 @@ navbar_list_large:
     link: /things/software/server/
   - name: I Made a Thing! Blog
     link: /things/software/blog
+  - name: Budget App
+    link: /things/software/budget-app/
   - name: Final Year Projects
     link: /things/mechatronics/fyp/
 - name: Miniature

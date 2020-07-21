@@ -7,4 +7,7 @@ hero_image:
     alt: Other Mechatronics Things
 posts_title: "Here are the posts I have made so far about other Mechatronics things:"
 category: OtherMecha
+breadcrumbs: 
+- Things
+- Mechatronics
 ---

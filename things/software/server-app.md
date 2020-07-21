@@ -4,6 +4,9 @@ group: Software
 title: All-In-One Server
 posts_title: "Here are the posts I have made so far about the Server and Node App:"
 category: Server-App
+breadcrumbs: 
+- Things
+- Software
 ---
 
 I created a CI/CD pipeline using Jenkins to handle the integration and deployment of my Node-App project. This project will be a central HTTP server which will be used for some of my future projects.
