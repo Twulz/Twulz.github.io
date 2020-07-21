@@ -2,8 +2,8 @@
 layout: post
 title:  "Building Basil Faulty the DonkeyCar"
 date:   2019-05-18
-categories: robot AI machineLearning
-tags: robot AI machineLearning basil 
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil DonkeyCar AutonomousCar Self-Driving-Car
 ---
 
 ![Group Shot](/images/donkeyCar/buildDay/01_chassis_group_shot.jpg)

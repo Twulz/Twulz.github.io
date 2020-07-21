@@ -2,8 +2,8 @@
 layout: post
 title:  "Beginning the Budget App - Routes"
 date:   2020-05-05
-categories: server node-app budget-app
-tags: server node-app REST api budget-app
+categories: Things Software Budget-App
+tags: Node-App Server NodeJs REST API Javascript Budget-App
 ---
 
 My server implements a RESTful API to be used with the budget app, but in order to do that I need to decide on the routes I will need to access. This post outlines the initial routes I've decided to implement.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Building the Vegepod"
 date:   2018-01-20
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
 ---
 
 ![Vegepod](/images/vegepod/16_pod_complete.jpg)

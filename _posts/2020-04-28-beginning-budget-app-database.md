@@ -2,8 +2,8 @@
 layout: post
 title:  "Beginning the Budget App - Database"
 date:   2020-04-28
-categories: server node-app budget-app
-tags: server node-app database knex nodejs javascript budget-app
+categories: Things Software Budget-App
+tags: Server NodeJs Database Knex Javascript Budget-App
 ---
 
 Now that my Node server is up and running (and secure), it's finally time to actually _do_ something with it! My first project will be purely software; a budgeting app that can be used to record transactions and define a monthly limit on each category to keep track of finances using a variation on the 'envelope' strategy.

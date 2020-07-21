@@ -2,8 +2,8 @@
 layout: post
 title:  "Data Gathering for Basil Faulty the DonkeyCar"
 date:   2019-05-21
-categories: donkeyCar robot machineLearning
-tags: robot AI machineLearning basil data donkeyCar
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car
 ---
 
 ![Basil](/images/donkeyCar/buildDay/04_basil.jpg)

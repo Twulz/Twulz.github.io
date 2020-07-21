@@ -2,8 +2,8 @@
 layout: post
 title:  "Testing the LED Cube"
 date:   2014-09-16
-categories: c4x4x4 LED cube
-tags: c4x4x4 build breadboard
+categories: Things Mechatronics LedCube
+tags: Cube4x4x4 LED LEDCube Breadboard
 ---
 
 ![Breadboard Setup](/images/c4x4x4/breadboard03.jpg)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Another Vegepod Update"
 date:   2018-12-23
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
 ---
 
 ![The pod!](/images/vegepod/progress_dec_2018_01.jpg)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Actually Training Basil Faulty the DonkeyCar"
 date:   2019-06-04
-categories: donkeyCar robot machineLearning
-tags: robot AI machineLearning basil training donkeyCar
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car Data Training
 ---
 
 ![Basil](/images/donkeyCar/setup/05_basil.jpg)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Upgrading Basil Faulty to DonkeyCar v3.1.0"
 date:   2019-11-12
-categories: donkeyCar
-tags: AI machineLearning
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car
 ---
 
 Today I'm upgrading my DonkeyCar Basil Faulty to donkey v3.1.0! A number of members of the Hackerspace have got the DonkeyCar training working on Windows (rather than a Linux Virtual Machine) and there have been a number of updates since my last install so what better time to upgrade?
