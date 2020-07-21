@@ -2,7 +2,7 @@
 layout: post
 title:  "Magbot Introduction"
 date:   2016-04-08
-categories: Things Mechatronics LedCube
+categories: Things Mechatronics OtherMecha
 tags: MagBot Robot Build
 ---
 
