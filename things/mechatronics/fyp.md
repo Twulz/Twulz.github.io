@@ -4,6 +4,9 @@ group: Mechatronics
 title: Final Year Projects
 posts_title: "Here are the posts I have made about my Final Year Projects:"
 category: FYP
+breadcrumbs: 
+- Things
+- Mechatronics
 ---
 
 I completed two Final Year Projects for my Bachelor of Engineering (Mechatronics) and Computer Science degrees.

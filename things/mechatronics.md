@@ -12,6 +12,8 @@ projects:
 hero_image: 
     path: /images/pickAndPlace/11_complete_setup.jpg
     alt: Mechatronics Things
+breadcrumbs: 
+- Things
 ---
 
 Here are a collection of Mechatronics Engineering Things I've made. Some are on-going projects with a few posts that have their own pages:
