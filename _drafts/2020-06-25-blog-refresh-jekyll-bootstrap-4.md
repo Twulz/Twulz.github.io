@@ -2,8 +2,8 @@
 layout: post
 title:  "Refreshing this blog with Jekyll and Bootstrap 4"
 date:   2020-06-25
-categories: blog
-tags: blog
+categories: Things Software Blog
+tags: Jekyll Blog Github-Pages
 ---
 
 After playing with bootstrap a bit for the budget app, and with all of the web development I'm now doing at work I was really dragging my feet in updating this blog. 

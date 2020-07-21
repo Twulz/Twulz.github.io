@@ -2,7 +2,7 @@
 layout: post
 title:  "Programming an ABB Robot Arm"
 date:   2016-09-13
-categories: Things Mechatronics Other
+categories: Things Mechatronics OtherMecha
 tags: Robot ABB PickAndPlace
 ---
 

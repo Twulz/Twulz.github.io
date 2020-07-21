@@ -2,7 +2,7 @@
 layout: post
 title:  "Building Hexy the Hexapod"
 date:   2018-02-11
-categories: Things Mini Other
+categories: Things Mechatronics OtherMecha
 tags: Hexapod Hexy Robot 3DPrint
 ---
 

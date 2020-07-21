@@ -81,7 +81,7 @@ navbar_list_large:
   - name: 4x4x4 LED Cube
     link: /things/mechatronics/cube4x4x4/
   - name: Other Engineering Things
-    link: /things/mechatronics/other/
+    link: /things/mechatronics/othermecha/
 - name: Software
   link: /things/software/
   dropdown: &dropdown
@@ -104,7 +104,7 @@ navbar_list_large:
   - name: Vegepod
     link: /things/garden/vegepod/
   - name: Other Garden Things
-    link: /things/garden/other/
+    link: /things/garden/othergarden/
 #- name: Sewing
 #  link: /sewing/
 #- name: Misc
