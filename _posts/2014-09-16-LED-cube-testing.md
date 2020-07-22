@@ -4,9 +4,10 @@ title:  "Testing the LED Cube"
 date:   2014-09-16
 categories: Things Mechatronics Cube4x4x4
 tags: Cube4x4x4 LED LEDCube Breadboard
+related_image: 
+  path: /images/c4x4x4/breadboard03.jpg
+  alt: Breadboard Setup
 ---
-
-![Breadboard Setup](/images/c4x4x4/breadboard03.jpg)
 
 The remainder of the parts only took a few days to arrive so I could get started on the main electronics involved in the build. I chose to test the circuit on a breadboard before soldering the more permanent solution onto Veroboard.
 

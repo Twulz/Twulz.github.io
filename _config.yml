@@ -66,7 +66,7 @@ navbar_list_large:
   link: /things/mechatronics/
   dropdown: &dropdown
   - name: All-In-One Server
-    link: /things/software/server/
+    link: /things/software/server-app/
   - name: Basil the DonkeyCar
     link: /things/mechatronics/donkeycar/
   - name: Final Year Projects
@@ -83,7 +83,7 @@ navbar_list_large:
   link: /things/software/
   dropdown: &dropdown
   - name: All-In-One Server
-    link: /things/software/server/
+    link: /things/software/server-app/
   - name: I Made a Thing! Blog
     link: /things/software/blog
   - name: Budget App

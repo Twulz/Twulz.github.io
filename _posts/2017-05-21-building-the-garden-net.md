@@ -4,9 +4,10 @@ title:  "Building the Garden Net and Frame"
 date:   2017-05-21
 categories: Things Garden OtherGarden
 tags: Garden Herbs Frame Build
+related_image: 
+  path: /images/gardenNet/32_done.jpg
+  alt: Net all done!
 ---
-
-![Net all done!](/images/gardenNet/32_done.jpg)
 
 I love growing my own plants but I have a nemesis in the garden that is eating all of my beautiful herbs, so today I built a frame to put a net over all my babies to try and keep the bastard out!
 

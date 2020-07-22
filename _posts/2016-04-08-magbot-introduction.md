@@ -4,10 +4,10 @@ title:  "Magbot Introduction"
 date:   2016-04-08
 categories: Things Mechatronics OtherMecha
 tags: MagBot Robot Build
+related_image: 
+  path: /projects/magbot/How-To-Build-A-Robot.jpg
+  alt: MagBook
 ---
-
-![MagBook](/projects/magbot/How-To-Build-A-Robot.jpg)
-{: style="text-align: center"}
 
 I was given a great MagBook by Jonathan Parkyn called [How to Build a Robot] which although is a UK magazine, it's still a great resource to get started in robotics and I thought I'd give it a try as I haven't played with motors before.
 

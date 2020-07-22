@@ -4,9 +4,10 @@ title:  "Soldering the Electronics and Finishing the LED Cube"
 date:   2014-09-24
 categories: Things Mechatronics Cube4x4x4
 tags: Cube4x4x4 LED LEDCube Solder
+related_image: 
+  path: /images/c4x4x4/finished01.jpg
+  alt: Finished Cube
 ---
-
-![Finished Cube](/images/c4x4x4/finished01.jpg)
 
 After successfully programming the chip and testing the cube connected using a breadboard, I connected the electronics using Perfboard to make for a better display.
 

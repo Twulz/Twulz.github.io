@@ -4,9 +4,10 @@ title:  "Building an Orrery: Planets!"
 date:   2016-12-24
 categories: Things Mechatronics Orrery
 tags: 3DPrint Orrery Build
+related_image: 
+  path: /images/orrery/finished_01.jpg
+  alt: Finished Orrery
 ---
-
-![Finished 1](/images/orrery/finished_01.jpg)
 
 Now with the gear set assembled and turning nicely (I could hand-crank it by turning the central shaft from below the base), it's time to add the main attraction of the planets. 
 

@@ -8,6 +8,17 @@ projects:
 hero_image: 
     path: /images/darksouls/12_groupshot.jpg
     alt: Miniature Things
+carousel_images:
+- path: /images/darksouls/12_groupshot.jpg
+  alt: Painting Dark Souls Minis
+  active: active
+  link: /things/mini/darksouls/
+- path: /images/darksouls/15_enemies_painted.jpg
+  alt: Painting Dark Souls Minis
+  link: /things/mini/darksouls/
+- path: /images/zombicide/suit_group.jpg
+  alt: Painting Zombicide Minis
+  link: /things/mini/zombicide/
 breadcrumbs: 
 - Things
 ---

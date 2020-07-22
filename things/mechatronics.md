@@ -12,6 +12,17 @@ projects:
 hero_image: 
     path: /images/pickAndPlace/11_complete_setup.jpg
     alt: Mechatronics Things
+carousel_images:
+- path: /images/donkeyCar/buildDay/06_basil.jpg
+  alt: Basil Faulty the Autonomous DonkeyCar
+  active: active
+  link: /things/mechatronics/donkeycar/
+- path: /images/mechatronicsFYP/10_package_box.jpg
+  alt: Package Box for my Final Year Project
+  link: /things/mechatronics/fyp/
+- path: /images/orrery/finished_04.jpg
+  alt: "Orrery: A model of the Planets"
+  link: /things/mechatronics/orrery/
 breadcrumbs: 
 - Things
 ---

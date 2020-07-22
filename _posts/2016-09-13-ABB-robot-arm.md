@@ -4,9 +4,10 @@ title:  "Programming an ABB Robot Arm"
 date:   2016-09-13
 categories: Things Mechatronics OtherMecha
 tags: Robot ABB PickAndPlace
+related_image: 
+  path: /images/abb/01_full_setup.jpg
+  alt: Full setup
 ---
-
-![Full setup](/images/abb/01_full_setup.jpg)
 
 Here is a quick post on one of my projects I'm working on at uni programming an ABB branded robot arm using the Flexpendant controller.
 

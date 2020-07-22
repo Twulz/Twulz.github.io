@@ -4,9 +4,10 @@ title:  "Building an Orrery: Bending the Rods"
 date:   2016-12-21
 categories: Things Mechatronics Orrery
 tags: 3DPrint Orrery Build
+related_image: 
+  path: /images/orrery/rods.jpg
+  alt: Cut Rods
 ---
-
-![Cut Rods](/images/orrery/rods.jpg)
 
 While the parts were printing I got to work figuring out how to best bend the copper rods that attach the planets to the gears. [Ytec 3D][Ytec3d] provides a printable guide to make sure each part was the right length and shape. 
 

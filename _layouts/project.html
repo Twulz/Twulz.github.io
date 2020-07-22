@@ -2,17 +2,63 @@
 layout: general
 ---
 
-<p><img alt="{{ page.hero_image.alt }}" src="{{ site.baseurl }}{{ page.hero_image.path }}"></p>
+{% assign carousel_number = page.carousel_images.size | minus: 1 %}
 
-{{ content }}
+<div class="pt-2">
+    <p>{{ page.description }}</p>
+</div>
 
-<h2>{{ page.posts_title }}</h2>
+<div class="hero-image">
+    <img src="{{ site.baseurl}}{{ page.hero_image.path }}" alt="{{ page.hero_image.alt }}" />
+</div>
 
-{% for post in site.categories[page.category] reversed %}
-    <h4>
-        <a href="{{ post.url }}">
-            {{ post.title }}
-        </a>
-    </h4>
-    <p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
-{% endfor %}
+<!-- <div id="carouselExampleIndicators" class="carousel slide py-2" data-ride="carousel">
+    <ol class="carousel-indicators">
+        {% for i in (0..carousel_number) %}
+            {% if i == 0 %}
+                {% assign active = 'active' %}
+            {% endif %}
+            <li data-target="#carouselExampleIndicators" data-slide-to="{{ i }}" class="{{ active }}"></li>
+        {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+        {% for image in page.carousel_images %}
+            <div class="carousel-item {{ image.active }}">
+                <img class="d-block w-100" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.alt }}">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>{{ image.alt }}</h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div> -->
+
+<div class="pt-2 page-content">
+    {{ content }}
+</div>
+
+<div class="pt-6">
+    <h2>{{ page.posts_title }}</h2>
+</div>
+
+
+<div class="pt-2">
+    {% for post in site.categories[page.category] reversed %}
+        <h4>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h4>
+        <p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
+        <!-- <div><img src="{{ site.baseurl }}{{ post.related_image.path }}" alt="{{ post.related_image.alt }}" /></div> -->
+        <p>{{ post.excerpt }}</p>
+    {% endfor %}
+</div>

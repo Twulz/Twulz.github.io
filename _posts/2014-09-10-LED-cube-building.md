@@ -4,9 +4,10 @@ title:  "Building the LED Cube"
 date:   2014-09-10
 categories: Things Mechatronics Cube4x4x4
 tags: Cube4x4x4 LED LEDCube Solder
+related_image: 
+  path: /images/c4x4x4/holes_LEDs.jpg
+  alt: Drilled Holes with LEDs
 ---
-
-![Drilled Holes with LEDs](/images/c4x4x4/holes_LEDs.jpg)
 
 While waiting for the main electronics to arrive, I got started on building the LED cube matrix.
 

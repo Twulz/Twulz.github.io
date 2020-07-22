@@ -6,9 +6,6 @@ projects:
     server: "All-In-One Server"
     blog: "This Blog with Bootstrap, Jekyll and Github-pages"
     budget-app: "A Budget App"
-hero_image: 
-    path: /images/pickAndPlace/11_complete_setup.jpg
-    alt: Software Engineering Things
 breadcrumbs: 
 - Things
 ---
