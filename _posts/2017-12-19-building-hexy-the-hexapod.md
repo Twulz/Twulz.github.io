@@ -4,9 +4,10 @@ title:  "Building Hexy the Hexapod"
 date:   2018-02-11
 categories: Things Mechatronics OtherMecha
 tags: Hexapod Hexy Robot 3DPrint
+related_image: 
+  path: /images/hexy/10_knolled.jpg
+  alt: All parts
 ---
-
-![All parts](/images/hexy/10_knolled.jpg)
 
 I Kickstarted Vorpal's Hexapod as a great 3D printing project to get started into the world of hexapods, other servo-powered robots and ABS printing.
 

@@ -4,9 +4,10 @@ title:  "Still Painting the Dark Souls Board Game"
 date:   2018-01-08
 categories: Things Mini DarkSouls
 tags: Paint Mini Miniature DarkSouls BoardGame
+related_image: 
+  path: /images/darksouls/15_enemies_painted.jpg
+  alt: The Dark Souls Board Game
 ---
-
-![The Dark Souls Board Game](/images/darksouls/15_enemies_painted.jpg)
 
 This is just a short update on my painting progress for Dark Souls. I went on my annual summer holiday to Torquay for 2 weeks and naturally it was crappy weather as usual so woohoo for inside hobbies!
 

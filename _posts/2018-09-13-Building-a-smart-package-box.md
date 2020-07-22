@@ -4,9 +4,10 @@ title:  "Building a Package Box for the Smart Home"
 date:   2018-09-13
 categories: Things Mechatronics FYP
 tags: SmartHome ESP32 NodeMCU NodeJs
+related_image: 
+  path: /images/mechatronicsFYP/10_package_box.jpg
+  alt: Completed Package Box
 ---
-
-![Completed Package Box](/images/mechatronicsFYP/10_package_box.jpg)
 
 As part of my Mechatronoics Engineering _Final Year Project_ I developed a _Package Box_ using RFID tags, a keypad and ESP32s that posties could securely deliver packages to that would interface with the central [Smart Home Server]({{ site.baseurl }}{% post_url 2018-08-26-Building-a-smart-home-server-with-nodejs %}).
 

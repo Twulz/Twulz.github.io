@@ -4,9 +4,10 @@ title:  "Building an Orrery: Gear Construction"
 date:   2016-12-23
 categories: Things Mechatronics Orrery
 tags: 3DPrint Orrery Build
+related_image: 
+  path: /images/orrery/finished_base02.jpg
+  alt: Base and All of the Gears
 ---
-
-![Base and All of the Gears](/images/orrery/finished_base02.jpg)
 
 Construction of the gears of the orrery required more than a little patience working with the printed parts and bearings.
 

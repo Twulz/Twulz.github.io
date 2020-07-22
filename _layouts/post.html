@@ -7,6 +7,10 @@ group: Blog
 	<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
 </p>
 
+<div class="post-image">
+	<img src="{{ site.baseurl }}{{ page.related_image.path }}" alt="{{ page.related_image.alt }}" />
+</div>
+
 {{ content }}
 
 {% include post/post_pagenation.html %}

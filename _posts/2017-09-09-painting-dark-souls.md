@@ -4,9 +4,10 @@ title:  "Painting the Dark Souls Board Game"
 date:   2017-09-09
 categories: Things Mini DarkSouls
 tags: Paint Mini Miniature DarkSouls BoardGame
+related_image: 
+  path: /images/darksouls/03_pre_painting.jpg
+  alt: Non-painted minis
 ---
-
-![Non-painted minis](/images/darksouls/03_pre_painting.jpg)
 
 I kickstarted the Dark Souls Board Game and decided the minis would look better painted.
 

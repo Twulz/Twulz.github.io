@@ -4,9 +4,10 @@ title:  "Building Basil Faulty the DonkeyCar"
 date:   2019-05-18
 categories: Things Mechatronics DonkeyCar
 tags: Robot AI MachineLearning Basil DonkeyCar AutonomousCar Self-Driving-Car
+related_image: 
+  path: /images/donkeyCar/buildDay/01_chassis_group_shot.jpg
+  alt: Group Shot
 ---
-
-![Group Shot](/images/donkeyCar/buildDay/01_chassis_group_shot.jpg)
 
 Building _Basil Faulty_ the DonkeyCar - a remote control car that becomes a self-driving car using machine learning and artificial intelligence to drive itself around my kitchen.
 

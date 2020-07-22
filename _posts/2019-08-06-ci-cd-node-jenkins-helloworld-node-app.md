@@ -4,9 +4,10 @@ title:  "CI/CD Pipeline using Node.js and Jenkins - 1: Hello World Server App"
 date:   2019-08-06
 categories: Things Software Server-App
 tags: Server-App Server NodeJs Javascript CICD DigitalOcean
+related_image: 
+  path: /images/server/jenkins_logo.png
+  alt: Jenkins
 ---
-
-![Jenkins](/images/server/jenkins_logo.png)
 
 Jenkins is an open source automation server that can be used to set up a Continuous Integration/Continuous Delivery (CI/CD) pipeline to streamline the deployment process. I wanted to set it up for my next project; a Node.js server that I could use for a lot of my future projects - I want to create a RESTful API that I can use for any of my projects that need to communicate with a central server. 
 

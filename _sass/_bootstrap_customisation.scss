@@ -121,3 +121,10 @@ li.nav-item.dropdown-toggle.dropdown-toggle-split::after {
   padding-left: 0.5rem !important;
   padding-right: 0.5rem !important;
 }
+
+.white-text {
+  color: $white !important;
+  :hover {
+    color: $gray-400 !important;
+  }
+}

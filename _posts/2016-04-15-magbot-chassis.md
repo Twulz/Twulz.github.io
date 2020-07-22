@@ -4,10 +4,10 @@ title:  "Magbot Chassis build"
 date:   2016-04-15
 categories: Things Mechatronics OtherMecha
 tags: MagBot Robot Build Solder
+related_image: 
+  path: /projects/magbot/How-To-Build-A-Robot.jpg
+  alt: MagBook
 ---
-
-![MagBook](/projects/magbot/How-To-Build-A-Robot.jpg)
-{: style="text-align: center"}
 
 I received the chassis for the MagBot and put it together.
 

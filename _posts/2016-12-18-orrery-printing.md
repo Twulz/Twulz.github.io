@@ -4,13 +4,12 @@ title:  "Building an Orrery: Printing the Parts"
 date:   2016-12-18
 categories: Things Mechatronics Orrery
 tags: 3DPrint Orrery Build
+related_image: 
+  path: /images/orrery/finished_01.jpg
+  alt: Almost finished Orrery
 ---
 
-![Almost finished Orrery](/images/orrery/finished_01.jpg)
-
 An Orrery is a mechanical model of the Solar System where the planets orbit around the Sun with a combination of gears allowing for relative motion between the sun and planets. I found a great tutorial on a 3D printed version that I could make as a present for my Dad.
-
-
 
 The build guide comes from [Ytec3d's guide][Orrery] which links to the [instructible][instructible] he wrote, be sure to check it out and support this amazing maker.
 

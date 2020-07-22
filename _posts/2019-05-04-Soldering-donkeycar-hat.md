@@ -4,9 +4,10 @@ title:  "Soldering the DonkeyCar Hat"
 date:   2019-05-04
 categories: Things Mechatronics DonkeyCar
 tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car
+related_image: 
+  path: /images/donkeyCar/solderingDay/02_all_components.jpg
+  alt: All the cars and components
 ---
-
-![All the cars and components](/images/donkeyCar/solderingDay/02_all_components.jpg)
 
 Today I attended a working day to prepare for the build workshop for the DonkeyCars.
 

@@ -4,9 +4,10 @@ title:  "Building a Smart Parking Server"
 date:   2018-09-18
 categories: Things Mechatronics FYP
 tags: SmartParking ESP32 NodeMCU NodeJs MySQL SQL Database
+related_image: 
+  path: /images/parking/nodejs.png
+  alt: Node.js
 ---
-
-![Node.js](/images/parking/nodejs.png)
 
 A summary of developing the server using Node.js for my _Smart Parking for Smart Cities_ project I was a part of for my Computer Science final year project that we presented at the Capstone Expo (CapEx) at Swinburne.
 

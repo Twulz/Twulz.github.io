@@ -10,6 +10,5 @@ category: OtherGarden
 breadcrumbs: 
 - Things
 - Garden
+description: Other stuff I've made for my garden that weren't really on-going projects.
 ---
-
-Other stuff I've made for my garden that weren't really on-going projects.

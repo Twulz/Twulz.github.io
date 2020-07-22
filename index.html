@@ -13,6 +13,7 @@ title: Home
 			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
 		</p>
 		<hr class="my-4">
+		<img src="{{ site.baseurl }}{{ post.related_image.path }}" alt="{{ post.related_image.alt }}" />
 		<p>
 			{% include libs/thumbnail %}
 			{% comment %} {% include libs/truncate_exec %} {% endcomment %} 
@@ -36,6 +37,9 @@ title: Home
 				<h5>
 					<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
 				</h5>
+				<div class="card-image">
+					<img src="{{ site.baseurl }}{{ post.related_image.path }}" alt="{{ post.related_image.alt }}" />
+				</div>
 				<div class="content">
 					{{ post.excerpt }}
 				</div>
