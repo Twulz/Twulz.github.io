@@ -21,6 +21,7 @@ lang: EN-AU
 # Configuration for blog
 lang: en
 paginate: 10
+paginate_path: "/page:num/"
 columns: 3
 date_format: "%B %d, %Y"
 truncate_len: 200
@@ -30,8 +31,6 @@ recent_posts: 10
 navbar_list:
 - name: Home
   link: /
-- name: Blog
-  link: /blog/
   dropdown: &dropdown
   - name: Archives
     link: /blog/archives
@@ -52,10 +51,8 @@ navbar_list:
   link: /about.html
 
 navbar_list_large:
-- name: Home
-  link: /
 - name: Blog
-  link: /blog/
+  link: /
   dropdown: &dropdown
   - name: Archives
     link: /blog/archives
