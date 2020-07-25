@@ -28,28 +28,6 @@ truncate_len: 200
 recent_posts: 10
 
 # Configuration for navbar
-navbar_list:
-- name: Home
-  link: /
-  dropdown: &dropdown
-  - name: Archives
-    link: /blog/archives
-  - name: Categories
-    link: /blog/categories
-  - name: Tags
-    link: /blog/tags
-- name: Things
-  link: /things/
-  dropdown: &dropdown
-  - name: Engineering Things
-    link: /engprojects/
-  - name: Miniature Things
-    link: /mini/
-  - name: Gardening Things
-    link: /garden/
-- name: About
-  link: /about.html
-
 navbar_list_large:
 - name: Blog
   link: /
@@ -61,104 +39,55 @@ navbar_list_large:
   - name: Tags
     link: /blog/tags
 - name: Things
-  link: /things/
+  link: /things
 - name: Mechatronics
-  link: /things/mechatronics/
+  link: /things/mechatronics
   dropdown: &dropdown
   - name: All-In-One Server
-    link: /things/software/server-app/
+    link: /things/software/server-app
   - name: Basil the DonkeyCar
-    link: /things/mechatronics/donkeycar/
+    link: /things/mechatronics/donkeycar
   - name: Final Year Projects
-    link: /things/mechatronics/fyp/
+    link: /things/mechatronics/fyp
   - name: Prusa i3 3D Printer
-    link: /things/mechatronics/printer/
+    link: /things/mechatronics/printer
   - name: Orrery
-    link: /things/mechatronics/orrery/
+    link: /things/mechatronics/orrery
   - name: 4x4x4 LED Cube
-    link: /things/mechatronics/ledcube/
+    link: /things/mechatronics/cube4x4x4
   - name: Other Engineering Things
-    link: /things/mechatronics/othermecha/
+    link: /things/mechatronics/othermecha
 - name: Software
-  link: /things/software/
+  link: /things/software
   dropdown: &dropdown
   - name: All-In-One Server
-    link: /things/software/server-app/
+    link: /things/software/server-app
   - name: I Made a Thing! Blog
     link: /things/software/blog
   - name: Budget App
-    link: /things/software/budget-app/
+    link: /things/software/budget-app
   - name: Final Year Projects
-    link: /things/mechatronics/fyp/
+    link: /things/mechatronics/fyp
 - name: Miniature
-  link: /things/mini/
+  link: /things/mini
   dropdown: &dropdown
   - name: Zombicide Painting
-    link: /things/mini/zombicide/
+    link: /things/mini/zombicide
   - name: Dark Souls Board Game Painting
-    link: /things/mini/darksouls/
+    link: /things/mini/darksouls
 - name: Garden
-  link: /things/garden/
+  link: /things/garden
   dropdown: &dropdown
   - name: Vegepod
-    link: /things/garden/vegepod/
+    link: /things/garden/vegepod
   - name: Other Garden Things
-    link: /things/garden/othergarden/
+    link: /things/garden/othergarden
 #- name: Sewing
 #  link: /sewing/
 #- name: Misc
 #  link: /misc/
 #- name: About
 #  link: /about/
-
-# Configuration for navbar.html
-# navbar_list:
-# - name: Blog
-#   link: /
-#   dropdown: &dropdown
-#   - name: Archives
-#     link: /blog/archives.html
-#   - name: Categories
-#     link: /blog/categories.html
-#   - name: Tags
-#     link: /blog/tags.html
-# - name: Engineering Things
-#   link: /engprojects/
-#   dropdown: &dropdown
-#   - name: All-In-One Server
-#     link: /engprojects/server/
-#   - name: Basil the DonkeyCar
-#     link: /engprojects/donkeycar/
-#   - name: Final Year Projects
-#     link: /engprojects/fyp/
-#   - name: Orrery
-#     link: /engprojects/orrery/
-#   - name: Prusa i3 3D Printer
-#     link: /engprojects/printer/
-#   - name: I Made a Thing! Blog
-#     link: /engprojects/jekyll-blog
-#   - name: 4x4x4 LED Cube
-#     link: /engprojects/cube4x4x4/
-#   - name: Other Engineering Things
-#     link: /engprojects/other/
-# - name: Games Things
-#   link: /games/
-#   dropdown: &dropdown
-#   - name: Zombicide Painting
-#     link: /games/zombicide/
-#   - name: Dark Souls Board Game Painting
-#     link: /games/darksouls/
-# - name: Gardening Things
-#   link: /garden/
-#   dropdown: &dropdown
-#   - name: Vegepod
-#     link: /garden/vegepod/
-#   - name: Other Garden Things
-#     link: /garden/other/
-# - name: Links
-#   link: /useful-links.html
-# - name: About
-#   link: /about.html
 
 plugins:
 #  - jekyll-feed
