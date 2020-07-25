@@ -8,8 +8,8 @@
         </h5>
         <p class="card-text">
             <ul class="list-unstyled">
-                {% for post in site.related_posts limit:5 %}
-					<li class="related-post">
+                {% for post in site.categories[page.categories.last] | limit:5 %}
+                    <li class="related-post">
                         <p class="my-1">
                             {{ post.date | date: "%d-%m-%Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                         </p>
