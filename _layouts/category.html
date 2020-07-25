@@ -53,16 +53,18 @@ layout: default
 		</div>
 		
 		<div class="pt-2">
-			{% for project in page.projects %}
-				<h4>
-					<a href="{{ site.baseurl }}/things/{{ page.group }}/{{ project[0] }}">
-						{{ project[1] }}
-					</a>
-				</h4>
-				<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
-				<!-- <div><img src="{{ site.baseurl }}{{ post.related_image.path }}" alt="{{ post.related_image.alt }}" /></div> -->
-				<p>{{ post.excerpt }}</p>
-			{% endfor %}
+			<ul>
+				{% for project in page.projects %}
+					<li><h4>
+						<a href="{{ site.baseurl }}/things/{{ page.group }}/{{ project[0] }}">
+							{{ project[1] }}
+						</a>
+					</h4>
+					<p class="pDate">{{ post.date | date: '%B %d, %Y' }}</p>
+					<!-- <div><img src="{{ site.baseurl }}{{ post.related_image.path }}" alt="{{ post.related_image.alt }}" /></div> -->
+					<p>{{ post.excerpt }}</p></li>
+				{% endfor %}
+			</ul>
 		</div>
 
 	</article>

@@ -3,7 +3,7 @@ layout: category
 group: Software
 title: Software Engineering Things
 projects:
-    server: "All-In-One Server"
+    server-app: "All-In-One Server"
     blog: "This Blog with Bootstrap, Jekyll and Github-pages"
     budget-app: "A Budget App"
 breadcrumbs: 
