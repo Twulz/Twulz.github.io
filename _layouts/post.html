@@ -1,23 +1,27 @@
 ---
-layout: default
+layout: general
 group: Blog
 ---
-			<article class="single post">
-				<header>
-					<h1>
-						<a href="{{ site.baseurl }}{{ page.url }}" rel="bookmark" title="Permanent link">{{ page.title }}</a>
-					</h1>
-					<p class="meta">
-						<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
-					</p>
-				</header>
-				<div class="content">
+
+<p class="h6">
+	<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+</p>
+
+<div class="post-image">
+	<img src="{{ site.baseurl }}{{ page.related_image.path }}" alt="{{ page.related_image.alt }}" />
+</div>
+
 {{ content }}
-<br>
-				</div>
-				<footer>
+
 {% include post/post_pagenation.html %}
-{% include post/post_meta.html %}
-{% include post/related_posts.html %}
-				</footer>
-			</article>
+
+<hr />
+
+<div class="row justify-content-center">
+	<div class="col-md-6 d-flex align-items-stretch">
+		{% include post/post_meta.html %}
+	</div>
+	<div class="col-md-6 d-flex align-items-stretch">
+		{% include post/related_posts.html %}
+	</div>
+</div>

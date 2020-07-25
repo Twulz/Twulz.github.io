@@ -2,11 +2,12 @@
 layout: post
 title:  "Vegepod Update"
 date:   2018-02-11
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
+related_image: 
+  path: /images/vegepod/47_progress_feb_2018_3wks.jpg
+  alt: 3 weeks of growth!
 ---
-
-![3 weeks of growth!](/images/vegepod/47_progress_feb_2018_3wks.jpg)
 
 An update after 3 weeks of growth in my vegepod!
 

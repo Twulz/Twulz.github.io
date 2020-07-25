@@ -2,7 +2,6 @@ _site/
 _deploy/
 _heroku/
 .bundle/
-vendor/
 Gemfile.lock
 .DS_Store
 Thumbs.db

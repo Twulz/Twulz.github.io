@@ -2,11 +2,12 @@
 layout: post
 title:  "Printing Adalinda the Dragon"
 date:   2016-08-18
-categories: printer
-tags: 3D print printer mk2 prusa i3 pla
+categories: Things Mechatronics Printer
+tags: Printer 3DPrinter 3DPrint Prusa i3 MK2 Build
+related_image: 
+  path: /images/printer/printer40_dragon.jpg
+  alt: Adalinda dragon print
 ---
-
-![Alinda dragon print](/images/printer/printer40_dragon.jpg)
 
 I finished building my printer and decided to print Adalinda the dragon, here are the results!
 

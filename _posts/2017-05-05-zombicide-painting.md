@@ -2,11 +2,12 @@
 layout: post
 title:  "Zombicide: First Paints"
 date:   2017-05-05
-categories: painting zombicide miniature
-tags: paint painting zombicide mini miniature
+categories: Things Mini Zombicide
+tags: Paint Mini Miniature Zombicide BoardGame
+related_image: 
+  path: /images/zombicide/suit_group.jpg
+  alt: First group finished
 ---
-
-![First group finished](/images/zombicide/suit_group.jpg)
 
 With my freshly primed minis all safely packed away in the Zombicide box... I forgot about it for a few months. I got distracted with other projects but I'm finally back on board and ready to put some _real_ paint on these babies!
 

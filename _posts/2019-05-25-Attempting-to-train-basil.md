@@ -2,11 +2,12 @@
 layout: post
 title:  "Attempting to Train Basil Faulty the DonkeyCar"
 date:   2019-05-25
-categories: donkeyCar robot machineLearning
-tags: robot AI machineLearning basil training donkeyCar
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car Data Training
+related_image: 
+  path: /images/donkeyCar/setup/03_controller_basil.jpg
+  alt: Basil Wired
 ---
-
-![Basil Wired](/images/donkeyCar/setup/03_controller_basil.jpg)
 
 I tried to set up the training environment using Ubuntu in VirtualBox on Windows to train Basil Faulty the DonkeyCar.
 

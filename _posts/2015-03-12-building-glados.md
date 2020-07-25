@@ -2,11 +2,12 @@
 layout: post
 title:  "Building GLaDOS - My New PC"
 date:   2015-03-12
-categories: GLaDOS 
-tags: GLaDOS build computer pc otherEng
+categories: Things Mechatronics OtherMecha
+tags: GLaDOS Build Computer PC
+related_image: 
+  path: /images/glados/finished01.jpg
+  alt: GLaDOS is ALIVE!
 ---
-
-![GLaDOS is ALIVE!](/images/glados/finished01.jpg)
 
 I build my first PC from scratch, a small post to document the process.
 

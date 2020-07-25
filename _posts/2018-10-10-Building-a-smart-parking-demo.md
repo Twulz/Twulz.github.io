@@ -2,11 +2,12 @@
 layout: post
 title:  "Building a Smart Parking Demo Model"
 date:   2018-10-10
-categories: nodejs esp32 fyp
-tags: parking esp32 nodejs arduino
+categories: Things Mechatronics FYP
+tags: SmartParking ESP32 NodeMCU NodeJs
+related_image: 
+  path: /images/parking/01_parking_setup.jpg
+  alt: Smart Parking Setup
 ---
-
-![Smart Parking Setup](/images/parking/01_parking_setup.jpg)
 
 A summary of building a model of the future vision for the _Smart Parking for Smart Cities_ project I was a part of for my Computer Science final year project that we presented at the Capstone Expo (CapEx) at Swinburne.
 

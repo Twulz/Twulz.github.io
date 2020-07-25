@@ -2,11 +2,12 @@
 layout: post
 title:  "Building the Vegepod"
 date:   2018-01-20
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
+related_image: 
+  path: /images/vegepod/16_pod_complete.jpg
+  alt: Vegepod
 ---
-
-![Vegepod](/images/vegepod/16_pod_complete.jpg)
 
 Today I wanted to post about my Christmas present - my new Vegepod!
 

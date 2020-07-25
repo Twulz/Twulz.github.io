@@ -2,11 +2,12 @@
 layout: post
 title:  "Potting up the Vegepod"
 date:   2018-01-21
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs Build
+related_image: 
+  path: /images/vegepod/41_all_planted.jpg
+  alt: The Finished Pod!
 ---
-
-![The Finished Pod!](/images/vegepod/41_all_planted.jpg)
 
 After completing the build of the Vegepod yesterday I'm ready to pot it up with some plants!
 

@@ -2,17 +2,16 @@
 layout: post
 title:  "Another Vegepod Update"
 date:   2018-12-23
-categories: vegepod gardening
-tags: vegepod gardening herbs garden
+categories: Things Garden Vegepod
+tags: Vegepod Garden Herbs
+related_image: 
+  path: /images/vegepod/progress_dec_2018_01.jpg
+  alt: The pod!
 ---
 
-![The pod!](/images/vegepod/progress_dec_2018_01.jpg)
-
-An update after 3 weeks of growth in my vegepod!
+I thought I'd post an update after nearly a year with the vegepod; it's still exploding but I've had to learn to space everything out a little more.
 
 <!--more-->
-
-I thought I'd post an update after nearly a year with the vegepod; it's still exploding but I've had to learn to space everything out a little more.
 
 ![The pod!](/images/vegepod/progress_dec_2018_01.jpg)
 

@@ -2,11 +2,12 @@
 layout: post
 title:  "Zombicide: Miniature Painting Supplies"
 date:   2017-01-16
-categories: painting zombicide
-tags: paint painting zombicide mini miniature
+categories: Things Mini Zombicide
+tags: Paint Mini Miniature Zombicide BoardGame
+related_image: 
+  path: /images/zombicide/zombicide_box.jpg
+  alt: Zombicide Board Game
 ---
-
-![Zombicide Board Game](/images/zombicide/zombicide_box.jpg)
 
 One of my all-time favourite board games would have to be [Zombicide](https://zombicide.com/en/) by Guillotine Games. In this post-apocalyptic board game you and your group of survivors must fight off the hoards of zombies to reach your mission objective despite the increasing number of undead shuffling or hurtling their way to you. 
 

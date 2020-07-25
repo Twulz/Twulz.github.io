@@ -2,8 +2,8 @@
 layout: post
 title:  "Adding Authentication to the Node App"
 date:   2020-02-18
-categories: server node-app
-tags: server node-app authentication jwt hash middleware nodejs javascript
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript JWT Security Authentication Hash Middleware
 ---
 
 After installing MySQL I realised that I needed a better solution than just storing plaintext usernames and passwords in an authentication table. So while I'm on my security-spree I've decided to implement the authentication middleware for the Node App including salting and hashing passwords using `bcrypt` and issuing JSON Web Tokens (JWT) to authenticate subsequent requests.

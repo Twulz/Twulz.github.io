@@ -2,11 +2,12 @@
 layout: post
 title:  "Building an Original i3 MK2 Kit 3D Printer - The Frame"
 date:   2016-08-16
-categories: printer
-tags: 3D print printer mk2 prusa i3
+categories: Things Mechatronics Printer
+tags: 3DPrinter 3DPrint Prusa i3 MK2 Build
+related_image: 
+  path: /images/printer/printer17_x_mounted.jpg
+  alt: Frame complete
 ---
-
-![Frame complete](/images/printer/printer17_x_mounted.jpg)
 
 I was actually on holiday in New Zealand when I researched and ordered my 3D printer. I had saved hard for the holiday and towards the end I realised I had more than enough left over to finally buy a printer!
 

@@ -1,13 +1,13 @@
-			<section id="post_pagenation">
-				<ul class="pager">
-{% if page.previous.url %}
-					<li class="previous pull-left">
-						<a href="{{ site.baseurl }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">&laquo;&nbsp;{{ page.previous.title | truncatewords: 15 }}</a>
-					</li>
-{% endif %}{% if page.next.url %}
-					<li class="next pull-right">
-						<a href="{{ site.baseurl }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title | truncatewords: 15 }}&nbsp;&raquo;</a>
-					</li>
-{% endif %}
-				</ul>
-			</section>
+<section id="post_pagenation">
+	<ul class="pagination justify-content-between">
+		{% if page.previous.url %}
+			<li class="page-item">
+				<a href="{{ site.baseurl }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="btn btn-outline-primary pagination-button">&laquo;&nbsp;{{ page.previous.title | truncatewords: 15 }}</a>
+			</li>
+		{% endif %}{% if page.next.url %}
+			<li class="page-item">
+				<a href="{{ site.baseurl }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="btn btn-outline-primary pagination-button">{{ page.next.title | truncatewords: 15 }}&nbsp;&raquo;</a>
+			</li>
+		{% endif %}
+	</ul>
+</section>

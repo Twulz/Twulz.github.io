@@ -2,7 +2,8 @@
 layout: post
 title:  "Rediscovering the Blog"
 date:   2016-02-18 16:30:00
-categories: jekyll
+categories: Things Software Blog
+tags: Jekyll Blog
 ---
 After setting up this blog and finally getting up to producing some content for it - I may have got super busy and abandoned the project for a while, however now I have decided to keep it up as I have a few projects in mind that I would like to log and here we are!
 

@@ -1,8 +1,13 @@
-{% if site.asides.about        %}{% include asides/about.html          %}{% endif %}
-<!--{% if site.asides.search       %}{% include asides/search.html         %}{% endif %} -->
-{% if site.asides.themes       %}{% include asides/themes.html         %}{% endif %}
-{% if site.asides.recent_posts %}{% include asides/recent_posts.html   %}{% endif %}
-{% if site.asides.archive_tabs %}{% include asides/archive_tabs.html   %}{% endif %}
-<!--{% if site.asides.github       %}{% include asides/github.html         %}{% endif %}
-{% if site.asides.tweets       %}{% include asides/tweets.html         %}{% endif %}
-{% if site.twitter.widget_id   %}{% include asides/twitter_widget.html %}{% endif %}--->
+<div class="col-lg-3 col-md-12 col-sm-12">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-12">
+            {% include asides/about.html %}
+        </div>
+        <div class="col-sm-6 col-lg-12">
+            {% include asides/recent_posts.html %}
+        </div>
+        <div class="col-sm-6 col-lg-12 d-flex align-items-stretch">
+            {% include asides/archives.html %}
+        </div>
+    </div>
+</div>

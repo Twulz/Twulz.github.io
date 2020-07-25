@@ -2,11 +2,12 @@
 layout: post
 title:  "Building the Smart Home Server with NodeJS"
 date:   2018-08-26
-categories: nodejs esp32 fyp
-tags: smartHome esp32 nodejs mysql database
+categories: Things Mechatronics FYP
+tags: SmartHome ESP32 NodeMCU NodeJs MySQL SQL Database
+related_image: 
+  path: /images/mechatronicsFYP/01_overview_diagram.png
+  alt: Node.js
 ---
-
-![Node.js](/images/mechatronicsFYP/01_overview_diagram.png)
 
 For my Mechatronics Engineering _Final Year Project_ I was part of a 3-person team that developed a modular _Smart Home_ system that used a raspberry pi as the main server with various modules developed using ESP32 (NodeMCUs) that send and recieve data from the main server. This post is an overview of the server but keep an eye out for my next post on the package box system.
 

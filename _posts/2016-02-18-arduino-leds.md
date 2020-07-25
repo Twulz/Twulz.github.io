@@ -2,8 +2,8 @@
 layout: post
 title:  "Playing with Arduino LEDs"
 date:   2016-02-18
-categories: arduino
-tags: arduino LED
+categories: Things Mechatronics OtherMecha
+tags: Arduino LED
 ---
 
 I have previously played with Arduino projects, today I decided to play around with some LEDs and re-familiarise myself with the platform.

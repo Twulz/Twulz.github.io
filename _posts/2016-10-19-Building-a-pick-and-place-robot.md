@@ -2,11 +2,12 @@
 layout: post
 title:  "Building a Pick-and-Place Robot using MyRIO and LabView"
 date:   2016-10-19
-categories: robot
-tags: robot pickAndPlace LabView otherEng
+categories: Things Mechatronics OtherMecha
+tags: Robot PickAndPlace LabView
+related_image: 
+  path: /images/pickAndPlace/11_complete_setup.jpg
+  alt: Completed shitty robot
 ---
-
-![Completed shitty robot](/images/pickAndPlace/11_complete_setup.jpg)
 
 I made a pick-and-place robot as a project at university which was programmed using the LabView program running on a myRIO controller.
 

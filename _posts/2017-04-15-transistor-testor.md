@@ -2,11 +2,12 @@
 layout: post
 title:  "$20 Transisor Tester"
 date:   2017-04-15
-categories: fix tester
-tags: fix transistor tester tools otherEng
+categories: Things Mechatronics OtherMecha
+tags: Fix Transistor Tester Tools
+related_image: 
+  path: /images/screenFix/set_contents.jpg
+  alt: Banggood Transistor Checker
 ---
-
-![Banggood Transistor Checker](/images/screenFix/set_contents.jpg)
 
 In this post I built a transistor/capacitor tester kit I got from banggood.com and used it to test these transistors as I replaced them to fix some old Dell screens (in a future post).
  

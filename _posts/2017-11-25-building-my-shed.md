@@ -2,11 +2,12 @@
 layout: post
 title:  "Building My Shed"
 date:   2017-11-25
-categories: gardening shed otherGarden
-tags: build gardening shed
+categories: Things Garden OtherGarden
+tags: Build Garden Shed
+related_image: 
+  path: /images/shed/06_finished.jpg
+  alt: Finished shed
 ---
-
-![Finished shed](/images/shed/06_finished.jpg)
 
 I needed somewhere to put all my gardening supplies now that the backyard is getting a little more use so I decided to build a shed at the side of the house.
 

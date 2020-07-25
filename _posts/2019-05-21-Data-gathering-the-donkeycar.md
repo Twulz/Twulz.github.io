@@ -2,11 +2,12 @@
 layout: post
 title:  "Data Gathering for Basil Faulty the DonkeyCar"
 date:   2019-05-21
-categories: donkeyCar robot machineLearning
-tags: robot AI machineLearning basil data donkeyCar
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car
+related_image: 
+  path: /images/donkeyCar/buildDay/04_basil.jpg
+  alt: Basil
 ---
-
-![Basil](/images/donkeyCar/buildDay/04_basil.jpg)
 
 I'd got Basil up and running on the workshop day but he was still a normal RC car until I could get him trained up and driving himself. I had a few hiccups trying to gather data using a ps3 controller and while I set up the training environment which I've outlined here.
 

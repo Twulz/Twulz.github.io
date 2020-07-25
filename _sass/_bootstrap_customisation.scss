@@ -1,0 +1,130 @@
+// Title - by Twulz
+
+#site-title {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem 0rem 0rem 0.5rem;
+    font-family: "Telex",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+  }
+  
+#site-description {
+  display: block;
+  margin-block-start: 0.8rem;
+  margin-block-end: 0.8rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  margin: 0 0 0.5rem 2rem;
+  padding: 0rem 0rem 0.5rem 0rem;
+  line-height: 0.8;
+  text-rendering: optimizelegibility;
+  opacity: 0.7;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar-dark .nav-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+@include media-breakpoint-up(md) {
+  .navbar-dark .nav-item.active .nav-link {
+    background: #472778; /* Old browsers */
+    background: -moz-linear-gradient(bottom, $purple, #472778); /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, $purple, #472778); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, $purple, #472778); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}
+
+
+.bg-gradient {
+  background: $purple; /* Old browsers */
+  background: -moz-linear-gradient(bottom, $purple, $purple-light-gradient); /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom, $purple, $purple-light-gradient); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, $purple, $purple-light-gradient); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.navbar {
+  padding: 0 !important;
+  line-height: 2rem !important;
+}
+
+.nav-link {
+  display: inline-block !important;
+}
+
+.card {
+  border-radius: 0.5rem !important;
+  background: $gray-200 !important;
+}
+
+.highlight {
+  border-radius: 0.5rem !important;
+}
+
+.breadcrumb {
+  border-radius: 0.5rem !important;
+}
+
+.btn {
+  border-radius: 0.5rem !important;
+}
+
+.highlight pre{
+  white-space: pre-wrap;
+}
+
+img {
+  @extend .img-fluid;
+  @extend .rounded; 
+  @extend .mx-auto; 
+  @extend .d-block
+}
+
+.pagination-button:hover { 
+    color: $white !important; 
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: $indigo !important;
+}
+
+.jumbotron {
+  border-radius: 0.5rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(0, 0, 0, 0.125) !important;
+}
+
+li.nav-item.dropdown-toggle.dropdown-toggle-split::after {
+  display: none !important;
+}
+
+.dropdown-light-text:hover {
+  color: $white !important;
+}
+
+.dropdown-menu.show {
+  background-color: $gray-200;
+  border-radius: 0.5rem;
+}
+
+.dropdown-no-padding-left {
+  padding-left: 0rem !important;
+}
+
+.dropdown-sm-padding {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.white-text {
+  color: $white !important;
+  :hover {
+    color: $gray-400 !important;
+  }
+}

@@ -2,11 +2,12 @@
 layout: post
 title:  "Building an Original i3 MK2 Kit 3D Printer - Finishing!"
 date:   2016-08-17
-categories: printer
-tags: 3D print printer mk2 prusa i3
+categories: Things Mechatronics Printer
+tags: 3DPrinter 3DPrint Prusa i3 MK2 Build
+related_image: 
+  path: /images/printer/printer33_constructed.jpg
+  alt: Original Prusal i3 MK2 Complete
 ---
-
-![Original Prusal i3 MK2 Complete](/images/printer/printer33_constructed.jpg)
 
 Yesterday I finished the frame for the Prusa so today it was time to add the electronics and eventually try to print!
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "CI/CD Pipeline using Node.js and Jenkins - 6: Creating and Destroying Droplets"
 date:   2019-10-15
-categories: jenkins server
-tags: jenkins cicd droplet
+categories: Things Software Server-App
+tags: Node-App Server-App Server NodeJs Javascript CICD Jenkins DigitalOcean
 ---
 
 After getting my CI/CD pipeline up and running, I needed an easier way to create droplets from snapshots so that process wasn't so time-consuming.

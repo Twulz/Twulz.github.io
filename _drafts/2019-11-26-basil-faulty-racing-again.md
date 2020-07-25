@@ -2,8 +2,8 @@
 layout: post
 title:  "Basil Faulty the DonkeyCar is racing again!"
 date:   2019-11-25
-categories: donkeyCar
-tags: AI machineLearning
+categories: Things Mechatronics DonkeyCar
+tags: Robot AI MachineLearning Basil Solder DonkeyCar AutonomousCar Self-Driving-Car Data Training
 ---
 
 After my [last blog post]({% post_url 2019-11-12-upgrading-basil-faulty-3-1-0 %}) where I set up the newest version of DonkeyCar - I've got Basil Faulty driving around the Hackerspace once more!
