@@ -68,13 +68,6 @@ navbar_list_large:
     link: /things/software/budget-app
   - name: Final Year Projects
     link: /things/mechatronics/fyp
-- name: Miniature
-  link: /things/mini
-  dropdown: &dropdown
-  - name: Zombicide Painting
-    link: /things/mini/zombicide
-  - name: Dark Souls Board Game Painting
-    link: /things/mini/darksouls
 - name: Garden
   link: /things/garden
   dropdown: &dropdown
@@ -82,6 +75,11 @@ navbar_list_large:
     link: /things/garden/vegepod
   - name: Other Garden Things
     link: /things/garden/othergarden
+- name: Sewing
+  link: /things/sewing
+  dropdown: &dropdown
+  - name: Other Sewing Things
+    link: /things/sewing/othersewing
 #- name: Sewing
 #  link: /sewing/
 #- name: Misc

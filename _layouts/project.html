@@ -51,7 +51,7 @@ layout: general
 
 
 <div class="pt-2">
-    {% for post in site.categories[page.category] reversed %}
+    {% for post in site.categories[page.category] %}
         <h4>
             <a href="{{ post.url }}">
                 {{ post.title }}
