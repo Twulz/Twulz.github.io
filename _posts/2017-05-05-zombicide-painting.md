@@ -2,7 +2,7 @@
 layout: post
 title:  "Zombicide: First Paints"
 date:   2017-05-05
-categories: Things Mini Zombicide
+categories: Things Making Zombicide
 tags: Paint Mini Miniature Zombicide BoardGame
 related_image: 
   path: /images/zombicide/suit_group.jpg

@@ -17,3 +17,6 @@ These Things are projects for my garden, including building stuff and growing st
 
 ## [Sewing Things](/things/sewing)
 These Things are sewn projects, starting with useful household things.
+
+## [General Making Things](/things/making)
+These Things are all the other things I've made, so far I've been painting the miniatures that come in Board Games.

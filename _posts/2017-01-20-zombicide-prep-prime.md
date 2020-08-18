@@ -2,7 +2,7 @@
 layout: post
 title:  "Zombicide: Prep and Priming the Minis"
 date:   2017-01-20
-categories: Things Mini Zombicide
+categories: Things Making Zombicide
 tags: Paint Mini Miniature Zombicide BoardGame
 related_image: 
   path: /images/zombicide/zoomed_primed.jpg
