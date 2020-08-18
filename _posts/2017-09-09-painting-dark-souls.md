@@ -2,7 +2,7 @@
 layout: post
 title:  "Painting the Dark Souls Board Game"
 date:   2017-09-09
-categories: Things Mini DarkSouls
+categories: Things Making DarkSouls
 tags: Paint Mini Miniature DarkSouls BoardGame
 related_image: 
   path: /images/darksouls/03_pre_painting.jpg

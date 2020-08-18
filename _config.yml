@@ -80,6 +80,15 @@ navbar_list_large:
   dropdown: &dropdown
   - name: Other Sewing Things
     link: /things/sewing/othersewing
+- name: General Making
+  link: /things/making
+  dropdown: &dropdown
+  - name: Zombicide Board Game Painting
+    link: /things/making/zombicide
+  - name: Dark Souls Board Game Painting
+    link: /things/making/darksouls
+  - name: Other General Making
+    link: /things/making/othermaking
 #- name: Sewing
 #  link: /sewing/
 #- name: Misc

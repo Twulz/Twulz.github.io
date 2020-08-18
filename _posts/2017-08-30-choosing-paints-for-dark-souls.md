@@ -2,7 +2,7 @@
 layout: post
 title:  "Choosing Paints for the Dark Souls Board Game"
 date:   2017-08-30
-categories: Things Mini DarkSouls
+categories: Things Making DarkSouls
 tags: Paint Mini Miniature DarkSouls BoardGame
 related_image: 
   path: /images/darksouls/dark_souls_stock.jpg
