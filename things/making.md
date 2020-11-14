@@ -5,6 +5,7 @@ title: General Making Things
 projects:
     zombicide: "Painting the Zombicide Board Game Miniatures"
     darksouls: "Painting the Dark Souls Board Game Miniatures"
+    horizonzerodawn: "Painting the Horizon Zero Dawn Board Game Miniatures"
     othermaking: "Other General Making Things"
 hero_image: 
     path: /images/darksouls/12_groupshot.jpg
@@ -20,6 +21,9 @@ carousel_images:
 - path: /images/zombicide/suit_group.jpg
   alt: Painting Zombicide Minis
   link: /things/making/zombicide/
+- path: /images/horizonZeroDawn/05_priming.jpg
+  alt: Painting Horizon Zero Dawn Minis
+  link: /things/making/horizon/
 breadcrumbs: 
 - Things
 ---
