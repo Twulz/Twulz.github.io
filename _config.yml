@@ -94,6 +94,8 @@ navbar_list_large:
     link: /things/making/zombicide
   - name: Dark Souls Board Game Painting
     link: /things/making/darksouls
+  - name: Horizon Zero Dawn Board Game Painting
+    link: /things/making/horizon
   - name: Other General Making
     link: /things/making/othermaking
 #- name: Sewing
