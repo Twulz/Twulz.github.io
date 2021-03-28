@@ -1,6 +1,6 @@
 ---
 layout: category
-group: Miniature
+group: mini
 title: Miniature Things
 projects:
     darksouls: "Painting the Dark Souls Board Game Miniatures"

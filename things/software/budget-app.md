@@ -3,7 +3,7 @@ layout: project
 group: Software
 title: Budget-App
 posts_title: "Here are the posts I have made so far about this Budget App:"
-category: Blog
+category: Budget-App
 breadcrumbs: 
 - Things
 - Software
