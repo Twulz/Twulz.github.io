@@ -4,8 +4,7 @@
         {% if page.categories %}
             {% assign url = site.url %}
             {% for category in page.categories %}
-                {% assign url = url | append: "/" %}
-                {% assign url = url | append: category %}
+                {% assign url = url | append: "/" | append: category | downcase %}
                 <li class="breadcrumb-item">
                     <a href="{{ url }}">
                         {{ category }}
@@ -16,8 +15,7 @@
         {% if page.breadcrumbs %}
             {% assign url = site.url %}
             {% for breadcrumb in page.breadcrumbs %}
-                {% assign url = url | append: "/" %}
-                {% assign url = url | append: breadcrumb %}
+                {% assign url = url | append: "/" | append: breadcrumb | downcase %}
                 <li class="breadcrumb-item">
                     <a href="{{ url }}">
                         {{ breadcrumb }}
