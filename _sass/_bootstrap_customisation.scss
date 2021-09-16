@@ -37,6 +37,9 @@
     background: -webkit-linear-gradient(bottom, $purple, #472778); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to top, $purple, #472778); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   }
+  p .img-fluid, .post-image .img-fluid {
+    max-width: 70%;
+  }
 }
 
 
