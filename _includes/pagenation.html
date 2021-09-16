@@ -1,6 +1,10 @@
 <nav class="mt-2" aria-label="...">
 	<ul class="pagination justify-content-center">
-		{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+			<li class="page-item">
+				<a class="page-link" href="/">Previous</a>
+			</li>
+		{% elsif paginator.previous_page %}
 			<li class="page-item">
 				<a class="page-link" href="/page{{ paginator.previous_page }}">Previous</a>
 			</li>
@@ -11,11 +15,21 @@
 		{% endif %}
 		{% for count in (1..paginator.total_pages) %}
 			{% if count == paginator.page %}
-				<li class="page-item active" aria-current="page">
-					<a class="page-link" href="/page{{ count }}">{{ count }} <span class="sr-only">(current)</span></a>
-			  	</li>
+				{% if count == 1 %}
+					<li class="page-item active" aria-current="page">
+						<a class="page-link" href="/">{{ count }} <span class="sr-only">(current)</span></a>
+					</li>
+				{% else %}
+					<li class="page-item active" aria-current="page">
+						<a class="page-link" href="/page{{ count }}">{{ count }} <span class="sr-only">(current)</span></a>
+					</li>
+				{% endif %}
 			{% else %}
-				<li class="page-item"><a class="page-link" href="/page{{ count }}">{{ count }}</a></li>
+				{% if count == 1 %}
+					<li class="page-item"><a class="page-link" href="/">{{ count }}</a></li>
+				{% else %}
+					<li class="page-item"><a class="page-link" href="/page{{ count }}">{{ count }}</a></li>
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 		{% if paginator.next_page %}
