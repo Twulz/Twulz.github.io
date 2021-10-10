@@ -75,6 +75,13 @@ navbar_list_large:
     link: /things/garden/vegepod
   - name: Other Garden Things
     link: /things/garden/othergarden
+- name: Cosplay
+  link: /things/cosplay
+  dropdown: &dropdown
+  - name: Eivor from Assassin's Creed Valhalla
+    link: /things/cosplay/eivor
+  - name: Other Cosplay Things
+    link: /things/cosplay/othercosplay
 - name: Sewing
   link: /things/sewing
   dropdown: &dropdown

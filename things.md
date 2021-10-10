@@ -15,6 +15,9 @@ These things are purely software projects - if they've got some hardware I put t
 ## [Garden Things](/things/garden)
 These Things are projects for my garden, including building stuff and growing stuff!
 
+## [Cosplay Things](/things/cosplay)
+These Things are Cosplay props, armour and costumes.
+
 ## [Sewing Things](/things/sewing)
 These Things are sewn projects, starting with useful household things.
 
