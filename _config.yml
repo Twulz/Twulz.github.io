@@ -73,6 +73,8 @@ navbar_list_large:
   dropdown: &dropdown
   - name: Vegepod
     link: /things/garden/vegepod
+  - name: Growing from Seed
+    link: /things/garden/seedlings
   - name: Other Garden Things
     link: /things/garden/othergarden
 - name: Cosplay
