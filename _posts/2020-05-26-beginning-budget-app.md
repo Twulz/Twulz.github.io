@@ -191,7 +191,7 @@ $(function(){
       dataType: 'json',
       contentType: 'application/json',
       headers: { 
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE1OTA0OTAzMzMsImV4cCI6MTU5MDU3NjczM30.nSm9KT_T5mJ4iYM91zB3G2ai15coK4kOGvmgvYIWSGI" }
+        "Authorization": "Bearer eyJh--redacted--gvYIWSGI" }
     })
     .done(function(response) {
       if (response.success === true) {
