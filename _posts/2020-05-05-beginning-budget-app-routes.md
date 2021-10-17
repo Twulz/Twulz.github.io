@@ -43,7 +43,7 @@ I started designing the endpoints of what I thought would be needed initially. I
 {
     "success": true,
     "response": "Authentication successful!",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE1OTAzMDIwMzMsImV4cCI6MTU5MDM4ODQzM30.Pzff-bwkd5WqZZ-oE7PhKqlmH82JkVGkxxJI0YyFApU"
+    "token": "eyJhbG--redacted--U"
 }
 ```
 
